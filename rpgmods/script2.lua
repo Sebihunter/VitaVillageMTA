@@ -465,7 +465,6 @@ gOthers = {
 	":rpgs/sounds/blinkerOn.mp3",
 	":rpgs/sounds/handbrakeOn.mp3",
 	":rpgs/sounds/engine.mp3",	
-	":rpgs/sounds/intro.mp3",	
 	":rpgs/sounds/click.mp3",	
 	":rpgs/sounds/hover.mp3",	
 	":rpgs/sounds/Pik pik.mp3",	
