@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<script>
+function setDownloadText(text){
+	var myspan = document.getElementById('dlstring');
+
+	if (myspan.innerText) {
+		myspan.innerText = text;
+	}
+	else
+	if (myspan.textContent) {
+			myspan.textContent = text;   
+	}
+	
+}
+
+function setProgressBar(w) {
+	var divArray = document.getElementById('progress-bar');
+	
+	divArray.style.width = w+'%';
+}
+</script>
+<html>
+    <head>
+        <meta name="description" content="Download Seite">
+        <title>The Vita Village</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="jquery.min.js"></script>
+        <script type="text/javascript" src="bootstrap.min.js"></script>
+        <link href="font-awesome.min.css"
+        rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="vita.css">
+    </head>
+    <body>
+		<div class="jumbotron vertical-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="img\vita_v_logo.png" class="center-block img-responsive">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="media-list">
+                        <li class="media">
+                            <a class="pull-left" href="#"><i class="fa fa-4x fa-gamepad pull-right s text-warning"></i></a>
+                            <div class="media-body">
+                                <h4 class="media-heading">Spielprinzip</h4>
+                                Unser Server ist ein Rollenspiel Server, was bedeutet, dass wir viel Wert
+                                    auf eine strikte Trennung zwischen OOC (Out of Character) und IC (In Character)
+                                    legen.
+                                    <br>Wir nehmen uns heraus Spieler, welche Metagaming betreiben oder die virtuelle
+                                    Welt unrealistisch stören, vom Server zu verweisen.
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="media-list">
+                        <li class="media">
+                            <a class="pull-left" href="#"><i class="fa fa-4x fa-comments pull-right s-o text-warning"></i></a>
+                            <div class="media-body">
+                                <h4 class="media-heading">Community</h4>
+									Neben unserem Gameserver sind auch unser Forum &nbsp;und Teamspeak wichtiger
+                                    Bestandteil des Spielerlebnisses.
+                                    <br>Für mehr Information kannst du dich direkt an unsere Seite www.vita-online.eu
+                                    wenden.
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="media-list">
+                        <li class="media">
+                            <a class="pull-left" href="#"><i class="fa fa-4x fa-gavel pull-right text-warning"></i></a>
+                            <div class="media-body">
+                                <h4 class="media-heading">Serverregeln</h4>
+                                Bitte beachte, dass das Spielen auf 'The Vita Village' nur unter Zustimmung
+                                    der Regeln möglich ist.
+                                    <br>Diese findest du Ingame unter 'F1' beziehungsweise auf unserer Homepage.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <h5 class="text-center">
+                    <i class="fa fa-fw fa-rotate-right fa-spin"></i><span id="dlstring">Beginne Download...</span></h5>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="progress">
+                        <div class="progress-bar" id="progress-bar" role="progressbar" style="width: 0%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		</div>
+    </body>
+
+</html>

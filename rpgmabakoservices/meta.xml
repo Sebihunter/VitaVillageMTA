@@ -1,0 +1,28 @@
+﻿<meta>
+	<info name="new_mabako-services" author="XX3" version="1.2" type="misc" />
+	
+
+	<script	src="server/shops.lua" 	type="server"/>
+	<script	src="client/shops.lua" 	type="client"/>
+	<script	src="client/ped_cluckin.lua"     	type="client"/>
+	<script	src="client/ped_burger.lua"     	type="client"/>
+	<script	src="client/ped_pizza.lua"     	type="client"/>
+	<map	src="maps/shops.map"/>
+	
+	<!-- food shop images -->
+	<file src="images/food/BURHEAL.png"/>
+	<file src="images/food/BURLOW.png"/>
+	<file src="images/food/BURMED.png"/>
+	<file src="images/food/BURHIG.png"/>
+	<file src="images/food/PIZHEAL.png"/>
+	<file src="images/food/PIZLOW.png"/>
+	<file src="images/food/PIZMED.png"/>
+	<file src="images/food/PIZHIG.png"/>
+	<file src="images/food/CLUHEAL.png"/>
+	<file src="images/food/CLULOW.png"/>
+	<file src="images/food/CLUMED.png"/>
+	<file src="images/food/CLUHIG.png"/>
+	<file src="images/food/OESBR.png"/>
+	<file src="images/food/OESCHE.png"/>
+	<file src="images/food/OESSC.png"/>
+</meta>

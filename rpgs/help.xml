@@ -1,0 +1,74 @@
+﻿<help popup="yes" title="Rollenspiel">
+VitaOnline .|. Hilfe
+
+Worauf kann ich klicken?
+Fahrzeuge - Automenu
+NPCs (z.B. Im Krankenhaus)
+
+Tastenbelegung:
+B - OOC Chat
+num_8 - Abblendlicht
+num_9 - Fernlicht
+num_4, num_5, num_6 - Blinker (links, Warnblinker, rechts)
+num_1 - Motor
+num_/, num_*, num_-, num_+, num_, - Polizeisirenen/-megaphone
+Die wichtigsten Commansd im Ueberblick:
+
+Allgemein:
+ /schlafen
+ /perso [Spielername]
+ /autoabgeben [Spielername]
+ /schluesselabgeben [Spielername1],[Spielername2],[Spielername3]...
+ /autosanzeigen
+ /sende [Spielername] [Betrag]
+ /afk
+ /me
+ /kuendigen
+ /autofix
+ /911
+ /hidetacho
+ /schluessel (fuer Haeuser)
+ /passwort [Altes Passwort] [Neues Passwort]
+ 
+Firmenchef:
+ /firmenkonto
+ /einzahlen [Betrag]
+ /auszahlen [Betrag]
+ /entlassen [Spielername]
+ /einstellen [Spielername]
+ 
+AutoFix:
+ /reparieren
+ /wasser
+ /oel
+ /batterie
+ /ab
+ /abdel
+ /magnet
+
+Autohaus:
+ /bestellen [Fahrzeug]
+ /verkaufe [Betrag]
+ 
+Transportfirma:
+ /auspacken
+ /abkuppeln
+ 
+Fahrschule:
+ /fschein [Spielername] [Fschein ID] [0/1]
+ 
+Polizei:
+ /absperrung
+ /delabsperrung
+ /handschellen [Spielername]
+ /einsperren [Spielername] [0/1]
+ /fscheinweg [Spielername] [FscheinID]
+ /waffenabnehmen [Spielername]
+ 
+Staatsverwaltung:
+ /haus
+ /besitzer [HausID] [Besitzer1],[Besitzer2],[Besitzer3]...
+ /hausverlegen [HausID]
+ /changeint [HausID] [Interior]
+ /intliste
+</help>

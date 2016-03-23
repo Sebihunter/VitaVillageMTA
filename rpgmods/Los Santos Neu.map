@@ -1,0 +1,23 @@
+<map edf:definitions="editor_main">
+    <object id="object (newdbbuild_lan04) (1)" dimension="0" interior="0" model="4023" posX="1498.970703125" posY="-1622.3254394531" posZ="24.145206451416" rotX="0" rotY="0" rotZ="180" />
+    <object id="object (LAcityhall4_LAn) (1)" dimension="0" interior="0" model="4048" posX="1509.4370117188" posY="-1666.2916259766" posZ="24.294242858887" rotX="0" rotY="0" rotZ="89.999969482422" />
+    <object id="object (sanpedbeaut) (1)" dimension="0" interior="0" model="4848" posX="1473.5936279297" posY="-1623.9915771484" posZ="16.175559997559" rotX="0" rotY="0" rotZ="270.67492675781" />
+    <object id="object (holpacific2_law) (1)" dimension="0" interior="0" model="5725" posX="1470.7161865234" posY="-1717.6684570313" posZ="21.519119262695" rotX="0" rotY="0" rotZ="180" />
+    <object id="object (LAcityhall4_LAn) (2)" dimension="0" interior="0" model="4048" posX="1492.1351318359" posY="-1709.5211181641" posZ="24.594926834106" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (LAcityhall4_LAn) (3)" dimension="0" interior="0" model="4048" posX="1449.8365478516" posY="-1681.3927001953" posZ="24.512632369995" rotX="0" rotY="0" rotZ="270" />
+    <object id="object (officeblok1_Lan) (2)" dimension="0" interior="0" model="4193" posX="1465.7926025391" posY="-1649.3743896484" posZ="26.801712036133" rotX="0" rotY="0" rotZ="246.85504150391" />
+    <object id="object (shbbyhswall08_lvs) (1)" dimension="0" interior="0" model="8653" posX="1511.6599121094" posY="-1696.4010009766" posZ="13.544964790344" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (shbbyhswall08_lvs) (2)" dimension="0" interior="0" model="8653" posX="1511.6599121094" posY="-1696.4010009766" posZ="15.54496383667" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (shbbyhswall08_lvs) (3)" dimension="0" interior="0" model="8653" posX="1511.6599121094" posY="-1696.4010009766" posZ="17.54496383667" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (shbbyhswall08_lvs) (5)" dimension="0" interior="0" model="8653" posX="1511.6599121094" posY="-1696.4010009766" posZ="19.54496383667" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (shbbyhswall08_lvs) (6)" dimension="0" interior="0" model="8653" posX="1511.6599121094" posY="-1696.4010009766" posZ="21.54496383667" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_Dumpster2) (1)" dimension="0" interior="0" model="1344" posX="1512.595703125" posY="-1697.7409667969" posZ="13.855093002319" rotX="0" rotY="0" rotZ="89.999938964844" />
+    <object id="object (BinNt08_LA) (1)" dimension="0" interior="0" model="1338" posX="1512.6258544922" posY="-1695.9527587891" posZ="13.758184432983" rotX="0" rotY="0" rotZ="35.730010986328" />
+    <object id="object (Stonebench1) (1)" dimension="0" interior="0" model="1256" posX="1521.9704589844" posY="-1675.4982910156" posZ="13.206331253052" rotX="0" rotY="0" rotZ="180" />
+    <object id="object (Stonebench1) (4)" dimension="0" interior="0" model="1256" posX="1522.3668212891" posY="-1692.2260742188" posZ="13.206331253052" rotX="0" rotY="0" rotZ="180" />
+    <object id="object (CJ_PHONE_KIOSK) (1)" dimension="0" interior="0" model="1363" posX="1522.4738769531" posY="-1689.3735351563" posZ="13.383237838745" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_PHONE_KIOSK) (2)" dimension="0" interior="0" model="1363" posX="1522.2055664063" posY="-1678.3826904297" posZ="13.383237838745" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (bustopm) (1)" dimension="0" interior="0" model="1257" posX="1522.7009277344" posY="-1683.5089111328" posZ="13.826066970825" rotX="0" rotY="0" rotZ="180" />
+    <object id="object (CJ_BIN1) (3)" dimension="0" interior="0" model="1359" posX="1522.2281494141" posY="-1695.123046875" posZ="13.245431900024" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_BIN1) (4)" dimension="0" interior="0" model="1359" posX="1521.9985351563" posY="-1672.6591796875" posZ="13.245431900024" rotX="0" rotY="0" rotZ="0" />
+</map>

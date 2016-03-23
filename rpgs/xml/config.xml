@@ -1,0 +1,9 @@
+<vita>
+	<!-- Hier kommen die MySQL Daten rein, die für das connecten wichtig sind -->
+	<mysqldata>
+		<host>127.0.0.1</host>
+		<user>root</user>
+		<password></password>
+		<table>vita_rpgs</table>
+	</mysqldata>
+</vita>

@@ -1,0 +1,6 @@
+﻿<meta>
+	<info author="Golf_R32" version="1.x" description="Animation resource" type="misc" />
+
+	<script src="server.lua" />
+	<script src="client.lua" type="client" />
+</meta>

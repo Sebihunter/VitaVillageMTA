@@ -1,0 +1,40 @@
+﻿<meta>
+	<info author="Golf_R32" type="script" name="Weapon shop" version="0.7.5" />
+
+
+		<script src="w_shop_s.lua" type="server"/>
+  		<script src="w_shop_c.lua" type="client"/>
+	<file src="ammu/1.png"/>
+	<file src="ammu/2.png"/>
+	<file src="ammu/3.png"/>
+	<file src="ammu/4.png"/>
+	<file src="ammu/5.png"/>
+	<file src="ammu/6.png"/>
+	<file src="ammu/7.png"/>
+	<file src="ammu/8.png"/>
+	<file src="ammu/9.png"/>
+	<file src="ammu/10.png"/>
+	<file src="ammu/11.png"/>
+	<file src="ammu/12.png"/>
+	<file src="ammu/13.png"/>
+	<file src="ammu/14.png"/>
+	<file src="ammu/15.png"/>
+	<file src="ammu/16.png"/>
+	<file src="ammu/17.png"/>
+	<file src="ammu/18.png"/>
+	<file src="ammu/19.png"/>
+	<file src="ammu/20.png"/>
+	<file src="ammu/21.png"/>
+	<file src="ammu/22.png"/>
+	<file src="ammu/23.png"/>
+	<file src="ammu/24.png"/>
+	<file src="ammu/25.png"/>
+	<file src="ammu/26.png"/>
+	<file src="ammu/27.png"/>
+	<file src="ammu/28.png"/>
+	<file src="ammu/29.png"/>
+	<file src="ammu/30.png"/>
+	<file src="ammu/31.png"/>
+	<file src="ammu/41.png"/>
+	<file src="ammu/46.png"/>
+</meta>

@@ -1,0 +1,29 @@
+<meta>
+
+     <info author="Sebihunter"/> 
+	 <file src="html/font-awesome.min.css" />
+	 <file src="html/jquery.min.js" />
+	 <file src="html/bootstrap.min.js" />
+	 <file src="html/fonts/2UX7WLTfW3W8TclTUvlFyQ.woff" />
+	 <file src="html/fonts/CWB0XYA8bzo0kSThX0UTuA.woff2" />
+	 <file src="html/fonts/glyphicons-halflings-regular.eot" />
+	 <file src="html/fonts/glyphicons-halflings-regular.svg" />
+	 <file src="html/fonts/glyphicons-halflings-regular.ttf" />
+	 <file src="html/fonts/glyphicons-halflings-regular.woff" />
+	 <file src="html/fonts/glyphicons-halflings-regular.woff2" />
+	 <file src="html/fonts/fontawesome-webfont.eot" />
+	 <file src="html/fonts/fontawesome-webfont.svg" />
+	 <file src="html/fonts/fontawesome-webfont.ttf" />
+	 <file src="html/fonts/fontawesome-webfont.woff" />
+	 <file src="html/fonts/fontawesome-webfont.woff2" />	 
+	 <file src="html/vita.html" />
+	 <file src="html/vita.css" />
+	 <file src="html/vita.less" />
+	 <file src="html/img/bg.jpg" />
+	 <file src="html/img/vita_v_logo.png" />
+	 
+	 <script src="script1.lua" type="client" />
+	 <script src="script2.lua"/>
+	 <script src="baum_c.lua" type="client" />
+	 <script src="baum_s.lua"/>	 
+</meta>

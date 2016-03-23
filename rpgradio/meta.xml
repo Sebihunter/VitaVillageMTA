@@ -1,0 +1,4 @@
+<meta>
+	<script src="radio.lua" type="client" />
+	<script src="radiodisplay.lua" type="client" />	
+</meta>

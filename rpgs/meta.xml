@@ -1,0 +1,156 @@
+﻿<meta>
+	<info author="Sebihunter" name="Rollenspiel" description="Rollenspiel" type="gamemode"/>
+	<min_mta_version client="1.5"></min_mta_version>
+	<include resource="custom_coronas" />
+	<include resource="customblips" />
+	<include resource="rpgradio" />
+	<include resource="shader_carpaint" />
+	<include resource="shader_water" />
+	<include resource="shader_lightning" />
+	<include resource="rpginteriors" />
+	<include resource="rpganims" />
+	<include resource="rpghelp" />
+	<include resource="rpgweapon" />
+	<include resource="rpgscoreboard" />
+	<include resource="rpgmabakoservices" />
+	<include resource="rpgmods" />
+	
+	<!-- Shared Sachen -->
+	<script src="shared/iteminfo-shared.lua" type="server" />
+	<script src="shared/iteminfo-shared.lua" type="client" />
+	<script src="shared/async-shared.lua" type="server" />
+	<script src="shared/async-shared.lua" type="client" />	
+	<script src="shared/utils-shared.lua" type="server" />
+	<script src="shared/utils-shared.lua" type="client" />
+	<script src="shared/include-shared.lua" type="server" />
+	<script src="shared/include-shared.lua" type="client" />
+	<script src="shared/vehtable-shared.lua" type="server" />
+	<script src="shared/vehtable-shared.lua" type="client" />
+	
+	<!-- Serverseitige Sachen -->
+	<script src="server/utils/utils-server.lua" type="server" />
+	<script src="server/utils/log-server.lua" type="server" />
+	<script src="server/utils/keypad-server.lua" type="server" />
+	
+	<script src="server/mysql-server.lua" type="server" />
+	<script src="server/intro-server.lua" type="server" />
+	
+	<script src="server/root-server.lua" type="server" />
+	<script src="server/wirtschaft-server.lua" type="server" />
+	<script src="server/item-server.lua" type="server" />
+	<script src="server/phone-server.lua" type="server" />
+	<script src="server/vehicles-server.lua" type="server" />
+	<script src="server/immo-server.lua" type="server" />
+	<script src="server/gangs-server.lua" type="server" />
+	<script src="server/deathsystem-server.lua" type="server" />	
+	<script src="server/beduerfnisse-server.lua" type="server" />
+	<script src="server/admin-server.lua" type="server" />
+	<script src="server/chatbox-server.lua" type="server" />
+	<script src="server/bank-server.lua" type="server" />
+	<script src="server/weather-server.lua" type="server" />
+	<script src="server/commands-server.lua" type="server" />
+	<script src="server/tschein-server.lua" type="server" />
+	<script src="server/bar-server.lua" type="server" />
+	<script src="server/eislauf-server.lua" type="server" />
+	<script src="server/hanf-server.lua" type="server" />
+	<script src="server/train-server.lua" type="server" />
+	
+	<script src="server/jobs/jobs-server.lua" type="server" />
+	<script src="server/jobs/autohaus-server.lua" type="server" />
+	<script src="server/jobs/polizei-server.lua" type="server" />
+	<script src="server/jobs/hafen-server.lua" type="server" />
+	<script src="server/jobs/adac-server.lua" type="server" />
+	<script src="server/jobs/jobcommands-server.lua" type="server" />
+	<script src="server/jobs/verwarung-server.lua" type="server" />
+	<script src="server/jobs/krankenhaus-server.lua" type="server" />
+	<script src="server/jobs/feuerwehr-server.lua" type="server" />
+	<script src="server/jobs/reporter-server.lua" type="server" />
+	
+	<script src="server/minijobs/trucker-server.lua" type="server" />
+	<script src="server/minijobs/pizza-server.lua" type="server" />	
+	<script src="server/minijobs/bus-server.lua" type="server" />	
+	<script src="server/minijobs/mower-server.lua" type="server" />		
+	<script src="server/minijobs/taxi-server.lua" type="server" />
+	<script src="server/minijobs/fischer-server.lua" type="server" />
+	<script src="server/minijobs/stadtverwaltung-server.lua" type="server" />
+
+
+	<!-- Clientseitige Sachen -->
+	<script src="client/utils/utils-client.lua" type="client" />
+	<script src="client/utils/clog-client.lua" type="client" />
+	<script src="client/utils/dxgui-client.lua" type="client" />
+	<script src="client/utils/background.lua" type="client" />
+	<script src="client/utils/clickareas.lua" type="client" />
+	
+	<script src="client/root-client.lua" type="client" />
+	<script src="client/cpicker-client.lua" type="client" />
+	<script src="client/login-client.lua" type="client" />
+	<script src="client/admin-client.lua" type="client" />
+	<script src="client/gui-client.lua" type="client" />	
+	<script src="client/names-client.lua" type="client" />	
+	<script src="client/tacho-client.lua" type="client" />
+	<script src="client/clicksystem-client.lua" type="client" />
+	<script src="client/tank-client.lua" type="client" />	
+	<script src="client/bank-client.lua" type="client" />
+	<script src="client/intro-client.lua" type="client" />
+	<script src="client/credits-client.lua" type="client" />
+	<script src="client/vehicles-indicator.lua" type="client" />
+	<script src="client/perso-client.lua" type="client" />
+	<script src="client/tschein-client.lua" type="client" />	
+	<script src="client/immo-client.lua" type="client" />
+	<script src="client/inventory-client.lua" type="client" />
+	<script src="client/shop-client.lua" type="client" />
+	<script src="client/gangs-client.lua" type="client" />
+	<script src="client/phone-client.lua" type="client" />
+	<script src="client/autoafk-client.lua" type="client" />
+	<script src="client/bar-gui.lua" type="client" />
+	<script src="client/bahnhof-client.lua" type="client" />
+	<script src="client/illegalweapons-client.lua" type="client" />
+	<script src="client/radio-client.lua" type="client" />
+	<script src="client/notify-client.lua" type="client" />		
+	<script src="client/body-behaviour.lua" type="client" />
+	<script src="client/casino-client.lua" type="client" />
+	<script src="client/eislauf-client.lua" type="client" />
+	
+	
+	<script src="client/jobs/firmen-client.lua" type="client" />	
+	<script src="client/jobs/polizei-client.lua" type="client" />
+	<script src="client/jobs/sirene-client.lua" type="client" />	
+	<script src="client/jobs/modshop-client.lua" type="client" />	
+	<script src="client/jobs/autohaus-client.lua" type="client" />
+	<script src="client/jobs/adac-client.lua" type="client" />	
+	<script src="client/jobs/verwarung-client.lua" type="client" />
+	<script src="client/jobs/feuerwehr-client.lua" type="client" />	
+	<script src="client/jobs/hafen-client.lua" type="client" />	
+	
+	<script src="client/minijobs/fischer-client.lua" type="client" />
+	<script src="client/minijobs/taxi-client.lua" type="client" />
+	<script src="client/minijobs/mower-client.lua" type="client" />
+	<script src="client/minijobs/trucker-client.lua" type="client" />	
+	<script src="client/minijobs/pizza-client.lua" type="client" />	
+	<script src="client/minijobs/bus-client.lua" type="client" />	
+	
+	<file src="copyright.txt"/>
+	<config src="help.xml" type="client" />
+	<config src="xml/rules.xml" type="client" />
+	<file src="LifestyleRounded.ttf"/>
+	<file src="Tahoma.ttf" />
+	
+	<!--shader -->
+	<file src="fx/block_world.fx" type="client" />
+	<file src="fx/bloom_combine.fx" type="client" />
+	<file src="fx/bloom_extract.fx" type="client" />
+	<file src="fx/blurH.fx" type="client" />
+	<file src="fx/blurV.fx" type="client" />
+	<file src="fx/contrast.fx" type="client" />
+	<file src="fx/modulation.fx" type="client" />
+	<file src="fx/mta-helper.fx" type="client" />	
+	<file src="fx/shader_null.fx" type="client" />	
+	<file src="fx/texture.fx" type="client" />	
+	<file src="fx/texture2.fx" type="client" />	
+	<file src="images/vignette1.dds" type="client" />	
+	<script src="shaderscripts/c_block_world.lua" type="client" />
+	<script src="shaderscripts/c_contrast.lua" type="client" />
+	<script src="shaderscripts/c_rtpool.lua" type="client" />
+	<script src="shaderscripts/vehiclelights-client.lua" type="client" />	
+</meta>

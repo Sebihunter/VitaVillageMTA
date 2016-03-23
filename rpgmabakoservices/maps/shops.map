@@ -1,0 +1,50 @@
+﻿<!--
+
+<°))><
+
+Public Services - Shop map
+(c) 2008 mabako network. All Rights reserved.
+
+-->
+
+<map>
+	<!-- Food shops -->
+	<!--
+		id = the name of the image in images/ammu/<id>.png
+		name = the name to be shown
+		health = the health to give to the player
+		price = ...
+	
+	-->
+	<!-- BurgerShot -->
+	<shop	id="FDBURG"	type="food"	name="BurgerShot"	posX="377"	posY="-68"	posZ="1001.5"	rotation="0"	interior="10"	rows="2"	columns="2">
+		<article	id="BURLOW"	name="Muh Muh Kindermenü"		price="2"	health="20"/>
+		<article	id="BURMED"	name="Beef Tower"		price="5"	health="40"/>
+		<article	id="BURHIG"	name="Meat Stack"		price="10"	health="70"/>
+		<article	id="BURHEAL"	name="Salat"		price="5"	health="40"/>
+	</shop>
+	
+	<!-- Cluckin' Bell -->
+	<shop	id="FDCHICK"	type="food"	name="Cluckin' Bell"	posX="370"	posY="-6.5"	posZ="1001.85"	rotation="0"	interior="9"	rows="2"	columns="2">
+		<article	id="CLULOW"	name="Cluckin' Little Meal"	price="2"	health="20"/>
+		<article	id="CLUMED"	name="Cluckin' Big Meal"	price="5"	health="40"/>
+		<article	id="CLUHIG"	name="Cluckin' Huge Meal"	price="10"	health="70"/>
+		<article	id="CLUHEAL"	name="Salat"		price="10"	health="40"/>
+	</shop>
+	
+	<!-- The Well Stacked Pizza Co. -->
+	<shop	id="FDPIZA"	type="food"	name="Well Stacked Pizza Co."	posX="374"	posY="-119"	posZ="1001.5"	rotation="0"	interior="5"	rows="2"	columns="2">
+		<article	id="PIZLOW"	name="Buster"			price="2"	health="20"/>
+		<article	id="PIZMED"	name="Double D-Luxe"		price="5"	health="40"/>
+		<article	id="PIZHIG"	name="Full Rack"		price="10"	health="70"/>
+		<article	id="PIZHEAL"	name="Salat"		price="10"	health="40"/>
+	</shop>
+	
+	<!-- Zum wilden Ösi. -->
+	<shop	id="WILDOES"	type="food"	name="Zum wilden Oesi"	posX="889.29547119141"	posY="1913.2756347656"	posZ="11.323812484741"	rotation="0"	interior="0"	rows="2"	columns="2" dimension = "1">
+		<article	id="OESBR"		name="16er Blech (Alkoholfrei) (Bier)"			price="2"	health="20"/>
+		<article	id="OESCHE"		name="Chevapcici"	price="5"	health="40"/>
+		<article	id="OESSC"		name="Wiener Schnitzl"		price="10"	health="70"/>
+		<article	id="PIZHEAL"	name="Salat"		price="10"	health="40"/>
+	</shop>	
+</map>

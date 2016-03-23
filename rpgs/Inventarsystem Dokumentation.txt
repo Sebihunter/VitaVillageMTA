@@ -1,0 +1,61 @@
+--[[
+************************************
+*** Kurzanleitung zum Itemsystem ***
+************************************
+
+* (1) Einem Spieler ein Item geben:
+* 		-- giveItem(player, itemid, bEnforce)
+* 	Parameter:
+*		* element 	player 		-- Spielerelement, wem das Item gegeben wird
+*		* int		itemid		-- Itemid des Items, welches hinzugefügt wird
+*		* bool		bEnforce	-- Erzwingen eines neuen Eintrages im Inventar auch wenn das Item stapelbar ist (Nicht nutzen wenn nicht notwendig!)
+* 	Rückgabewert:
+*		* int 		slotid		-- Spielerslot, in dem das Item gespeichert wird
+* 
+* (2) Einem Spieler ein Item wegnehmen:
+* 		-- removeItem(player, slotid, bEnforce)
+* 	Parameter:
+*		* element 	player 		-- Spielerelement, wem das Item weggenommen wird
+*		* int		slotid		-- Slot, aus dem das Item stammt. Sofern nur Itemid bekannt, siehe (3)
+*		* bool		bEnforce	-- Erzwingen des Löschens aus dem Inventar, auch wenn das Item stackbar ist und noch mehrere "Restitems" übrig sind.
+* 	Rückgabewert:
+* 
+* (3) Inventarslot durch Itemid herausbekommen:
+* 		-- findItem(player, itemid)
+* 	Parameter:
+*		* element 	player 		-- Spielerelement, wessen Slot herausgefunden werden soll
+*		* int		itemid		-- Item, das gefunden werden soll
+* 	Rückgabewert:
+*		* int		slotid		-- Slot, in dem das Item ist. Wenn der Spieler kein Item vom Typ itemid hat, dann -1
+* 
+* (4) Iteminformationen setzen:
+* 		-- setItemData(player, slotid, key, value)
+* 	Parameter:
+*		* element 		player 	-- Spielerelement
+*		* int			slotid	-- Itemslot des Spielers
+*		* string 		key		-- Schlüssel, unter dem der Wert gespeichert werden soll
+*		* string / int	value	-- Wert, der gespeichert werden soll
+* 	Rückgabewert:
+*
+*	Anmerkungen:
+*		* Reservierte Schlüssel:
+*			* "id" 		-> Itemid im Slot
+*			* "count" 	-> Anzahl bei Stackbaren Items
+*		* Vergleichbar mit setElementData
+*
+* (5) Iteminformationen lesen:
+* 		-- getItemData(player, slotid, key)
+* 	Parameter:
+*		* element 		player 	-- Spielerelement
+*		* int			slotid	-- Itemslot des Spielers
+*		* string 		key		-- Schlüssel, unter dem der Wert gespeichert ist
+* 	Rückgabewert:
+*		* string / int	value	-- Wert, der unter 'key' abgespeichert ist, oder nil
+*
+*	Anmerkungen:
+*		* Reservierte Schlüssel:
+*			* "id" 		-> Itemid im Slot
+*			* "count" 	-> Anzahl bei Stackbaren Items
+*		* Vergleichbar mit getElementData
+*
+]]

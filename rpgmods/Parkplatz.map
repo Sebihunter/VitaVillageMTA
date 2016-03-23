@@ -1,0 +1,34 @@
+<map edf:definitions="editor_main">
+    <object id="object (carparksign01_lvs) (1)" model="8406" interior="0" dimension="0" posX="-1531.3421630859" posY="601.03643798828" posZ="7.0644025802612" rotX="0" rotY="0" rotZ="270.27026367188" />
+    <object id="object (carparksign01_lvs) (2)" model="8406" interior="0" dimension="0" posX="-1531.3421630859" posY="624.5419921875" posZ="7.0644025802612" rotX="0" rotY="0" rotZ="270.26916503906" />
+    <object id="object (fencesmallb) (1)" model="970" interior="0" dimension="0" posX="-1533.2973632813" posY="633.89227294922" posZ="6.7300777435303" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (fencesmallb) (2)" model="970" interior="0" dimension="0" posX="-1537.4625244141" posY="633.89227294922" posZ="6.7321128845215" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (fencesmallb) (3)" model="970" interior="0" dimension="0" posX="-1541.6248779297" posY="633.89227294922" posZ="6.7341461181641" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (fencesmallb) (4)" model="970" interior="0" dimension="0" posX="-1543.6999511719" posY="631.82189941406" posZ="6.7389812469482" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (fencesmallb) (5)" model="970" interior="0" dimension="0" posX="-1543.6999511719" posY="627.6474609375" posZ="6.7389812469482" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (fencesmallb) (6)" model="970" interior="0" dimension="0" posX="-1543.6999511719" posY="623.47503662109" posZ="6.7389812469482" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (fencesmallb) (7)" model="970" interior="0" dimension="0" posX="-1543.6999511719" posY="619.30407714844" posZ="6.7389812469482" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (fencesmallb) (11)" model="970" interior="0" dimension="0" posX="-1543.6999511719" posY="602.61688232422" posZ="6.7389812469482" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (fencesmallb) (12)" model="970" interior="0" dimension="0" posX="-1543.6999511719" posY="598.47772216797" posZ="6.7389812469482" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (fencesmallb) (13)" model="970" interior="0" dimension="0" posX="-1543.6999511719" posY="594.31610107422" posZ="6.7389812469482" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (fencesmallb) (14)" model="970" interior="0" dimension="0" posX="-1543.6999511719" posY="590.15197753906" posZ="6.7389812469482" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (fencesmallb) (15)" model="970" interior="0" dimension="0" posX="-1541.6187744141" posY="588.06030273438" posZ="6.7341423034668" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (fencesmallb) (16)" model="970" interior="0" dimension="0" posX="-1537.4610595703" posY="588.06030273438" posZ="6.7321128845215" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (fencesmallb) (17)" model="970" interior="0" dimension="0" posX="-1533.2943115234" posY="588.06030273438" posZ="6.7300758361816" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (bollardlight) (1)" model="1215" interior="0" dimension="0" posX="-1543.6654052734" posY="617.07678222656" posZ="6.751823425293" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (bollardlight) (2)" model="1215" interior="0" dimension="0" posX="-1543.6892089844" posY="604.83392333984" posZ="6.751823425293" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (bollardlight) (3)" model="1215" interior="0" dimension="0" posX="-1543.6892089844" posY="610.65795898438" posZ="6.751823425293" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (arrow) (1)" model="1318" interior="0" dimension="0" posX="-1543.3630371094" posY="613.60150146484" posZ="6.1399998664856" rotX="0" rotY="90" rotZ="0" />
+    <object id="object (arrow) (2)" model="1318" interior="0" dimension="0" posX="-1543.3630371094" posY="607.35900878906" posZ="6.1399998664856" rotX="0" rotY="90" rotZ="180" />
+    <object id="object (bollardlight) (9)" model="1215" interior="0" dimension="0" posX="-1546.6884765625" posY="610.65795898438" posZ="6.751823425293" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (kb_planter_bush) (1)" model="638" interior="0" dimension="0" posX="-1544.1864013672" posY="632.58685302734" posZ="6.8845338821411" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (kb_planter_bush) (2)" model="638" interior="0" dimension="0" posX="-1543.1772460938" posY="634.29028320313" posZ="6.8845338821411" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (kb_planter_bush) (3)" model="638" interior="0" dimension="0" posX="-1542.4631347656" posY="587.65466308594" posZ="6.880108833313" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (kb_planter_bush) (4)" model="638" interior="0" dimension="0" posX="-1544.1864013672" posY="588.63500976563" posZ="6.8845338821411" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (kb_planter_bush) (6)" model="638" interior="0" dimension="0" posX="-1544.1864013672" posY="591.296875" posZ="6.8845338821411" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (kb_planter_bush) (7)" model="638" interior="0" dimension="0" posX="-1544.1864013672" posY="629.9140625" posZ="6.8845338821411" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (kb_planter_bush) (8)" model="638" interior="0" dimension="0" posX="-1545.1123046875" posY="610.57757568359" posZ="6.8845338821411" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (carparksign01_lvs) (3)" model="8406" interior="0" dimension="0" posX="-1544.0462646484" posY="612.98657226563" posZ="11.712840080261" rotX="0" rotY="0" rotZ="270.26916503906" />
+    <object id="object (kb_planter_bush) (9)" model="638" interior="0" dimension="0" posX="-1545.1123046875" posY="604.61907958984" posZ="6.8845338821411" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (kb_planter_bush) (10)" model="638" interior="0" dimension="0" posX="-1545.1123046875" posY="617.31762695313" posZ="6.8845338821411" rotX="0" rotY="0" rotZ="90" />
+</map>

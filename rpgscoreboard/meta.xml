@@ -1,0 +1,6 @@
+<meta>
+	<info author="Sebihunter" version="1.0.0" type="script" description="VitaOnline Scoreboard" />
+	<script src="scoreboard.lua" type="client" />
+	<file src="LifestyleRounded.ttf" type="client" />
+	<file src="vi.png" type="client" />
+</meta>

@@ -1,0 +1,21 @@
+<map edf:definitions="editor_main">
+    <object id="object (vendmach) (1)" model="1209" interior="0" dimension="0" posX="-1571.4116210938" posY="705.17877197266" posZ="6.1875" rotX="0" rotY="0" rotZ="91.310028076172" />
+    <object id="object (vendmach) (2)" model="1209" interior="0" dimension="0" posX="-1693.0205078125" posY="415.37890625" posZ="6.1796875" rotX="0" rotY="0" rotZ="43.667358398438" />
+    <object id="object (vendmach) (3)" model="1209" interior="0" dimension="0" posX="-2035.6441650391" posY="-102.08988952637" posZ="34.1640625" rotX="0" rotY="0" rotZ="179.36012268066" />
+    <object id="object (vendmach) (4)" model="1209" interior="0" dimension="0" posX="-2528.2998046875" posY="-624.96575927734" posZ="131.76133728027" rotX="0" rotY="0" rotZ="177.37231445313" />
+    <object id="object (vendmach) (5)" model="1209" interior="0" dimension="0" posX="-2765.607421875" posY="379.06872558594" posZ="5.3381958007813" rotX="0" rotY="0" rotZ="92.013732910156" />
+    <object id="object (CJ_EXT_SPRUNK) (1)" model="955" interior="0" dimension="0" posX="-1980.7998046875" posY="142.66123962402" posZ="27.080039978027" rotX="0" rotY="0" rotZ="269.52026367188" />
+    <object id="object (vendmach) (7)" model="1209" interior="0" dimension="0" posX="-2631.0024414063" posY="631.48657226563" posZ="13.453125" rotX="0" rotY="0" rotZ="0.70046997070313" />
+    <object id="object (vendmach) (8)" model="1209" interior="0" dimension="0" posX="-1939.6641845703" posY="265.39270019531" posZ="40.046875" rotX="0" rotY="0" rotZ="90.737670898438" />
+    <object id="object (vendmach) (9)" model="1209" interior="0" dimension="0" posX="-2056.4851074219" posY="479.94869995117" posZ="34.172290802002" rotX="0" rotY="0" rotZ="90.736083984375" />
+    <object id="object (vendmach) (10)" model="1209" interior="0" dimension="0" posX="-1990.5787353516" posY="823.31768798828" posZ="44.4453125" rotX="0" rotY="0.7156982421875" rotZ="268.83178710938" />
+    <object id="object (vendmach) (11)" model="1209" interior="0" dimension="0" posX="-1931.3770751953" posY="620.74542236328" posZ="34.171875" rotX="0" rotY="0.714111328125" rotZ="359.42517089844" />
+    <object id="object (vendmach) (13)" model="1209" interior="0" dimension="0" posX="-1781.9029541016" posY="1007.3377685547" posZ="23.890625" rotX="0" rotY="0.714111328125" rotZ="270.81494140625" />
+    <object id="object (CJ_EXT_CANDY) (1)" model="956" interior="0" dimension="0" posX="-2229.1896972656" posY="286.42584228516" posZ="34.720336914063" rotX="0" rotY="0" rotZ="180.54064941406" />
+    <object id="object (vendmach) (15)" model="1209" interior="0" dimension="0" posX="-2420.1584472656" posY="985.95074462891" posZ="44.296875" rotX="0" rotY="0" rotZ="90.342468261719" />
+    <object id="object (vendmach) (14)" model="1209" interior="0" dimension="0" posX="-2449.8439941406" posY="755.86328125" posZ="34.171875" rotX="0" rotY="0.7086181640625" rotZ="2.8380126953125" />
+    <object id="object (vendmach) (16)" model="1209" interior="0" dimension="0" posX="-2289.1306152344" posY="583.35711669922" posZ="34.167125701904" rotX="0" rotY="0.7086181640625" rotZ="0.8494873046875" />
+    <object id="object (vendmach) (17)" model="1209" interior="0" dimension="0" posX="-2420.2175292969" posY="984.576171875" posZ="44.285934448242" rotX="0" rotY="0" rotZ="90.088623046875" />
+    <object id="object (vendmach) (18)" model="1209" interior="0" dimension="0" posX="-1648.45703125" posY="1213.8162841797" posZ="6.1796879768372" rotX="0" rotY="0.7086181640625" rotZ="136.54089355469" />
+    <object id="object (vendmach) (19)" model="1209" interior="0" dimension="0" posX="-1818.6221923828" posY="1314.5891113281" posZ="18.254932403564" rotX="0" rotY="0.7086181640625" rotZ="5.5280456542969" />
+</map>

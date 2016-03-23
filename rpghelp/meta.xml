@@ -1,0 +1,5 @@
+<meta>
+<info author="Sebihunter" version="1.0" name="VitaOnline-Help" type="script"/>
+	<script src="dxgui.lua" type="client" />
+	<script src="client.lua" type="client" />
+</meta>

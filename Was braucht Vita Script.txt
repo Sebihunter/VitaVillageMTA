@@ -1,0 +1,56 @@
+--Einnahmen geringer machen
+X --1000 Vero Startgeld
+X --E-Mail Adresse reinschreiben bei Registraiton
+X --Bedürfnisse sind unten wenn du spawnst
+
+AutoFix:
+X - Pay'N'Spray heilt fahrzeug nur, sichtbaren Schaden nicht
+X - AutoFix weiterhin Tuning
+X - Reparaturkits wie gehabt, nur dass es komplett repariert ist (ohne visuellen Schaden) <- nur wenn Status "Panne"
+X - AutoFix kann vor Ort wenn er on ist (da dann Reparatur nicht geht) reparieren und umdrehen
+X - XP/Geld für Falschparker-Abschleppen
+X - TÜV zum AutoFix
+
+Autohaus:
+- Anfänger-Autohaus auch in LV mit größerer Auswahl (Checkpoint wo gespawnt wird und wenn wer drin ist nicht kaufen lassen)
+- Autohausgelände war zu klein
+- Autos auf Mindestlevel
+- Autoliste mit Autopreise neu gemacht
+- Muss klarer sein, wo man Autos bekommt
+
+Polizei:
+X - Rumpo dient als Blitzer (muss jemand hinten drin sitzen)
+N - Polizeiskins
+X - Du hast keinen Führerschein anzeigen, kein Autokauf ohne Führerschein (also kein neuer Besitzerstatus)
+X - Verwahrung für einige Tage möglich machen <- also von der Polizei setzbar
+X - Radkralle bei markierten Fahrzeugen
+
+viNETWORK:
+X - Nachrichten togglebar machen
+X - Wenn sie nicht online sind Sachen automatisch anzeigen lassen (z.B. Wetter) - Lilly die Wetterfee
+
+InterTrans:
+- Lieferung an Feuerwehr (Medizin, Feuerlöscher)
+- 24/7 (nach 20 gekauften) kann leer gehen sonst wird er teurer (50%)
+
+Nebenjobs:
+- werden nach Level erst freigeschaltet
+- Zeitungsjunge
+X - Mehr Buslinien
+
+Waffen:
+- System a la GTA V Vita
+
+Chat:
+X - OOC generell aus
+X - L-OOC
+X - Ticketsystem
+
+Questsystem:
+- Anfangs halt (Bedürfnisse [Burger-Shot], Führerschein (T-Schein), Verwahrstelle, Nebenjob/Stadthalle, Polizei, Anfängerautohaus, AutoFix, 24/7 <- GPS bzw Handy)
+
+Haussystem:
+X - Automatisch rauswerfen wenn sie für 2 Monate inaktiv sind
+
+Bundeswehr/Gangs:
+- Wie GTA V

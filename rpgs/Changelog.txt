@@ -1,0 +1,1839 @@
+TODO: Wiederbelebung mit anklicken
+TODO: Temporären Führerschein nochmals checken | Hab checks im moment disabled
+TODO: Neger und Arzt haben keine SOunds
+TODO: Krankenhaus Passanten überarbeiten
+TODO: Dreck im Auge mit /hidetacho
+TODO: Schild bei Renes Stripclub: Renes Cockhaus
+
+BESPRECHEN: Leitfaden
+BESPRECHEN: Tutorial
+
+Minijob Ideen:
+Müllabfuhr 
+
+--NEWSFRAKTION--
+TODO: Siehe PM schlumpf
+TODO: Casino schöner?
+
+-------
+
+TODOOO Kilometerstand etwas verbuggt?
+TODOOO /admin um Position für admin zu zeigen
+TODOOO Tacho in weiß
+TODOOO Notifications durchsichtig
+TODOOO Login in neuem Design
+TODOOO ARES TÜV ZU HOCH
+TODOOOO Report system/Ticketsystem
+TODOOO ABFRAGE BEI /rechnung
+TODOOO AUTOBLIP VORSCHLAG HALT
+TODOOO Sichtbug beim intertrans auspacken
+TODOOO Signatur muss Level haben
+TODOOO stacken von Items verhindern
+TODOOO Crash wenn man geschlagen wird
+TODOOO Tankstellenbrand
+TODOOO WENN MAN AUS DIENST GEHT HAT MAN NIX MEHR WAFFEN ETC
+TODOOO Sani Blaulicht, Feuerwehr rot in blau (http://vita-online.eu/village/index.php/Thread/2617-VORSCHLAG-f%C3%BCr-Einsatzfahrzeuge/)
+TODOO Mehr Tuning
+TODOO Regeln updaten
+TODOO Paketminijob
+TODOOO: Mehr Tuningteile wie Hupen, Sportmotor, Neon
+TODOOO: Egoansicht verbessern
+TODOOO: Warndreieck
+TODOO Autoverschleiß (Reifen)
+
+11.01.2016
+Mail bei Registrierung eingebaut
+Downloadmusik eingebaut
+Fixes beim URL-Download
+Lokaler OOC eingebaut
+Weltweiter OOC standartmäßig deaktiviert
+Tutorial Notifications eingebaut und im Script angewendet
+Sound und Design der Tooltips angepasst
+Wenn kein viNETWORK Mitarbeiter online ist wird Wetter automatisch gesendet
+viNETWORK Nachrichten können lokal deaktiviert werden
+Pay'N'Spray Garagen eingebaut
+Fehler behoben, dass nach Nutzung des Reparaturkits Fahrzeuge unzerstörbar sind
+Fehler behoben, dass nach Reparatur Helikopter und Boote unzerstörbar sind
+AutoFix kann Motor auch unterwegs reparieren (wie mit Reparaturkit)
+TÜV wurde zum AutoFix bewegt
+Markierte Fahrzeuge können durch Radkralle nicht mehr bewegt werden
+Beim Joinen wird der Spieler darauf aufmerksam gemacht, wenn eines seiner Fahrzeuge (oder der Fraktion/Gang) verwahrt wurde
+Positionen der Busstationen LVPD und Staatsverwaltung geändert und Ansagenqualität erhöht
+Regionalbuslinie 6 nach Fort Carson eingebaut
+Spieler werden nach 2 Monaten inaktivität aus dem Haus geworfen
+Neue Polizeiskins eingebaut
+Setzbare Mindestverwahrzeit im /falschparker Befehl eingebaut
+Rumpo als neuer mobiler Blitzer statt stationärer
+Ohne einen Führerschein der Fahrzeugart kann man kein Besitzer eines solchen Fahrzeuges werden
+Ticket/Supportsystem eingebaut
+
+23.03.2015
+Mods und Maps werden nun über eigenes Script runtergeladen
+Fehler behoben, dass Spieler nach dem Wiederbeleben trotzdem am Krankenhaus spawnen
+Nicht mehr benötigte Workarounds entfernt
+Geld für Führerscheine wird nun an die Polizei statt an die Fahrschule überwiesen
+Fehler bei Verwahrstellenschranke behoben
+Einnahmen für InterTrans erhöht (AutoFix Bestellungen & Tankstellen)
+Allgemein Script aufgeräumt
+Krankenhaus und Feuerwehr in Rettungsdienst vereint (Job ID ist weiterhin die vom Krankenhaus)
+Fehler beim ADAC Tor und Hebebühnen behoben
+
+06.07.2015
+car4you fahrzeuge gefrozen wen key = "car4you"
+Polizei kann nun vom Fahrschulschüler die KMH anzeige sehen und die Hand Bremse betätigen
+
+26.06.2015
+car4you Duty Position geändert
+verwarungs Schranke ergänzt
+
+23.06.2015
+Autoabstellt Marker für verwarung Position geändert
+
+22.06.2015
+Fahrschule Deaktiviert, Polizei kann nun Fahrschul Befehle Nutzen
+Fahrzeug Schluessel bei Car4you angepasst Statt Autohus nun car4you
+DamageProof für Schluesselbesitzer car4you
+
+19.05.2015
+Exploit mit Üzgür betreffend beide Gebrauchtwagenhändler behoben
+Tankkanister teurer gemacht
+Globale Adminnachrichten mit /aca eingefügt
+OOC Chat von Teammitgliedern mit /atogooc togglebear
+Mit /togooc ist es ab sofort möglich, den OOC für sich zu deaktivieren
+Ersatzreifen können, wenn der AutoFix online ist, nicht mehr verwendet werden
+Insassen verlieren bei Fahrzeugcrashes einen gewissen Anteil vom Leben
+Maximaler Tankstelleninhalt verkleinert um mehr Aufträge für InterTrans zu generieren
+Textur an der Ares Baustelle geändert
+Baustelle am AutoFix entfernt
+
+14.05.2015
+HardBase.fm als neuer Radiosender eingebaut
+Fehler behoben, dass AutoFix Trucks mit falschem Modell respawnen
+Anlieferung von AutoFix Teilen vereinfacht (geht nun auch mit dem Truck auf der Hebebühne und nicht nur mit Anhänger)
+Größe der Hebebühnenmarker geändert um Anlieferung von Teilen leichter zu ermöglichen
+
+10.05.2015
+Fehler behoben, dass Fahrzeuge wegen eines verbuggten Kofferraums nicht mehr gespeichert wurden
+
+10.05.2015
+InterTrans muss AutoFix Hebebühnen mit Reparaturteilen beliefern (500 pro Lieferung an InterTrans, Kosten 1000 für AutoFix)
+Private Unternehmen können nun Konten bei der Administration beantragen
+/checkausliefern schaut nach, ob es belieferbare AutoFix Reparaturplattformen gibt
+Regeln auf F1 geupdated
+Donutladen in LV eingebaut
+Problem, dass Blitzer trotz AFK des Polizisten ausgelöst wurden behoben
+
+28.04.2015
+Exploit bei Autoverwertung behoben
+Geld der Autoverwertung geht nun zur Hälfte an Autohus und zur Hälfte an car4you
+
+27.04.2015
+Radio in AutoFix erneut eingebaut
+/häuseranzeigen eingebaut
+/autosanzeigen erlaubt nun auch nach einem bestimmten Modell zu suchen
+Möglicher Bugfix, bei dem Fahrzeuge einer Firma plötzlich nicht mehr der Firma gehörten
+Möglicher Bugfix, bei dem manche Fahrzeuge nach dem Restart des Servers immer eine Panne hatten
+Egoperspektive mit /ego eingebaut
+Radiostationen angepasst
+Map der Fahrschule/Verwahrungsstelle etwas umgebaut
+Fehler mit dem Fahrschul-Marker behoben
+Datum bei Überweisungen hinzugefügt
+Beim Abheben und Einzahlen wird nun auch Name des Spielers in der Log angezeigt
+Exploit im Taxijob behoben
+Regeln & Gesetze aktualisiert
+Fahrschulbremse von Polizei zur Fahrschule geändert
+Moderratorrechte im 'O-Panel' überarbeitet
+Fahrschule kann PiF verringern
+/forceperso für Polizei eingebaut
+
+12.04.2015
+Fahrschule eingebaut und Fahrschul CMDs von der Polizei entfernt
+Temporärer Führerschein kann nicht mehr gemacht werden, wenn ein Fahrlehrer im Dienst ist
+Einnahmen beim Auffüllen der Tankstellen erhöht
+Behoben, dass unter gewissen Umständen Leute im Knast immer noch treten konnten
+Blitzer haben nun eine eigene ID und Besitzer
+/delblitzer verlangt nun die Blitzer ID und entfernt nicht mehr alle gleichzeitig
+Blitzer werden nicht mehr ausgelöst, wenn kein Polizist in der Nähe steht
+/markierte zeigt nun Fahrzeugtyp (Motorrad oder Auto) an
+Nicht mehr verwendetes Autologin-CMD aus der Hilfe entfernt
+
+08.04.2015
+Fehler behoben, dass Boote Benzin verlieren konnten
+Fehler bei Überweisungsprotokoll von Gangkonten behoben
+Newsvan der viNETWORK schneller gemacht
+Tippfehler im Knastausbruch behoben
+Police-Academy auf Wunsch des Leaders ausgebaut
+Gang-Notizen können nur mehr von Gangleadern editiert werden
+Fehler behoben der Gang-Notizen auf interne Variable "THIS IS SPARTA" setzen konnte
+viNETWORK kann nun Lotterien durchführen
+Fahrzeuge können im Wasser kein Feuer mehr fangen
+Behoben, dass bei Dr. Schnipp Skin erst nach dem Reconnecten gesetzt wurde
+Öffentliche Fahrräder beim Gebrauchtwagenhändler hinzugefügt
+Es ist möglich in den Akten nur mehr Online-Spieler anzuzeigen
+Adminpanel Resourcenschonender gemacht
+Sanitäter-Fahrzeuge schneller gemacht
+Polizisten sehen ab jetzt bei wem Megafon-Nachricht ankommt
+Beim Disconnecten werden Telefonanrufe automatisch abgebrochen
+
+02.04.2015
+1. April Features entfernt
+Treten ist nun neben Schlagen auch in Knast deaktiviert
+
+01.04.2015
+Beschriftungen von Interiors werden nicht mehr durch Wände gesehen
+Rename-Funktion setzt auch Fahrzeuge in der Verwahrung auf den neuen Namen
+Fehler behoben, dass Telefonicon manchmals im Nametag nicht weggegangen ist
+Fehlernachrichten beim Anzeigen des Spielerbildes behoben
+Sanitäter bekommen mehr Aufträge
+Schlagen und Schießen in Gefängniszellen deaktiviert
+Performanceverbesserungen
+Baustelle am Strip entfernt
+Items können im Gefängnis nicht mehr abgelegt und verwendet werden
+Items können nicht mehr abgelegt werden, wenn man sich in einem Fahrzeug befindet
+Im Gefängnis können keine Animationen mehr ausgeführt werden
+Gesetze auf F1 aktualisiert
+Wichtige Änderungen zum Monatsanfang
+
+25.03.2015
+Tooltipps-Design überarbeitet
+Name des Akteneintragers wird automatisch in Einträge gesetzt
+Nachricht, wenn ein Kofferraum geöffnet wird, eingefügt
+Fehler bei Einnahmen des Krankenhauses behoben
+Radio auf Fahrrädern deaktiviert
+Deaktiviert, dass Polizei Personen für '0 Minuten' einsperren konnten
+Behoben, dass man nicht sofort respwant ist, obwohl alle Sanis im Knast waren
+Kofferraum kann nicht mehr in Fahrzeug geöffnet werden
+Beim Entnehmen und Ablegen im Kofferraum wird ab sofort die Distanz zum Fahrzeug berücksichtigt
+Neue DaNangs Base eingebaut
+
+23.03.2015
+Fehler behoben, dass einige Polizeibefehle kompletten Namen benötigten
+Anzeigefehler, wenn man in einem Interior stirbt, wurde behoben
+Kamerafehler beim Pony mit eingeladetem Motorrad behoben
+Fehlende Befehle auf 'F1' hinzugefügt
+Colorcodes im Chat sind nur mehr für Admins anwendbar
+/waffencheck zeigt keine ausgeschossenen Waffen mehr an
+Nametag zeigt nun an ob Spieler schreibt
+Regeln und STVO auf F1 aktualisiert
+Gefahrgutschein in LKW-Schein geändert
+Kofferraumsystem eingebaut
+Bremsen beim Tempomat verbessert
+Man kann solangem an Handschellen hat nicht mehr AFK gehen
+Tankstellenexploit behoben
+Zelle im PD Interior wurde behoben
+Mapfehler in Los Santos behoben
+
+16.03.2015
+Toilette in der Polizeigarage eingebaut
+Tippfehler in /pif behoben
+Fahrzeuge schweben beim Auspacken nicht mehr in der Luft
+Neues Baustellenschild (ID: 3380) eingebaut
+OOC Chat geht nun auch per Bind wenn man schwer verletzt ist
+Einige Fehler beim Verwahrsystem (Paintjob, Variants) behoben
+Fehlerbehebung beim 1-Tages-TÜV des Gebrauchtwagenhändlers
+Veränderungen beim Einkastbefehl um Fehler zu verhindern
+Absperrungen können nur mehr im Dienst aufgestellt werden
+Absperrungen werden in Interiors nun richtig gespawnt
+Veränderungen im Knastausbruch bei der Überprüfung ob Gangmitglieder in der Nähe sind
+Tippfehler im Knastausbruch ausgebsesert
+Heaven Devils Text im Scoreboard geändert um Fehler zu behben
+Telefonicon in Nametags behoben
+Reparaturmarker im AutoFix vergrößert
+Kart als bestellbar eingebaut
+Administrator heißt nun im Scoreboard Projektleitung
+
+09.03.2015
+Baustelle für neues Ares Automobiles eingebaut
+Mapverbesserung bei der Duchifal-Arena
+Diverse Performanceverbesserungen um Laggs entgegenzuwirken
+Nicht verwendete trafficlights-server.lua entfernt
+Großer Denkfehler im Banksystem (Payday) behoben
+Rundfunkgebühr (100 Vero) für viNETWORK vom bekommenen Gehalt eingebaut (Von Parlament)
+Dienststatus wird im Scoreboard angezeigt
+Neues Design für Nametags
+Es wird im Nametag nun angezeigt, wenn ein Spieler telefoniert
+Radios werden beim Platzieren nun richtig gedreht
+Polizeiskins geändert
+Marker im LVPD "umgedreht"
+Einbahnstraßenschilder unzerstörbar gemacht
+Hilfe bearbeitet
+
+08.03.2015
+Gangbase der La Piedra geändert
+Neue Feuerwehrwache in LV eingebaut
+Baustelle beim AutoFix eingebaut
+Adminchat (/ac) eingebaut
+Fehlerbehebung bei Gehalt
+Problembehebungen beim Knastausbruch
+Einbahnstraßenschild überarbeitet
+Baufahrzeugpositionen in der Baustellenmap überarbeitet
+Textur- und Modelladen überarbeitet, um Fehler zu minimieren
+
+03.03.2015
+Erster Bauabschnitt des Parlaments am Strip eingebaut TODOOOO
+Maps von Ares, Polizei und SASO übarbeitet
+Einbahnbeschilderung am Strip eingebaut
+Knastausbruch für Gangs eingebaut
+Tempomat kann nicht mehr benutzt werden, wenn Motor aus ist
+Fahrzeugpreise geringfügig adaptiert
+Polizeicommands funktionieren nun tatsächlich alle auch mit Rank 0
+
+01.03.2015
+Fehler behoben, dass Fraktionsfahrzeuge nach dem Rausholen aus der Verwahrung bis zum Restart nicht mehr im Firmenpanel gelistet waren
+Fahrradstation vor dem PD und der Stadthalle eingebaut (Parlamentsantrag)
+Fehlende ATM Log beim Abheben eingefügt
+Arbeitslosengeld, welches mit dem letzten Update unabsichtlich wieder eingeführt wurde, erneut ausgebaut
+F1 Hilfe aktualisiert
+Erneute Fehlerbehebung im Firmenpanel für Autohaus
+Polizeicommands funktionieren nun alle auch mit Rank 0
+Einige Baumpositionen der Feuerwehr überarbeitet
+
+23.02.2015
+Neues Item: Duchifal-Tablette
+ATM im Polizei-Interior eingebaut
+TÜV Marker erneut überarbeitet
+Fehler in Gangwar-Script behoben, der Gangwar plötzlich enden konnte
+Fehlinformation aus Infomessage genommen
+Beim Einkaufen wird das Shop GUI nicht mehr automatisch geschlossen
+Taxis können nur mehr im Job gefahren werden
+Exploit, mit dem jeder Radios aufheben konnte behoben
+/grasabnehmen für Polizei eingebaut
+Fehler behoben, weswegen Fahrzeuge des Autohauses noch immer nicht auf 'J' sichtbar waren
+Radiostreams in AutoFix und InterTrans wurden auf Wunsch der Firmenchefs entfernt
+Skins von InterTrans und viNETWORK geändert
+Senderadius der viNETWORK vergrößert
+Fehler im Tankstellenraub behoben
+Fehler in Kontenlog bezüglich Rechnungen behoben
+Automatischer 1-tages TÜV bei Kauf von Fahrzeug des Gebrauchtwagenhändlers, wenn TÜV bereits abgelaufen ist
+Level wird nun auch in Nametag angezeigt
+Einige SA-MP Objekte für unsere Mapper eingefügt
+
+14.02.2015
+Bestellte Fahrzeuge werden ab sofort im Firmenpanel des Autohauses angezeigt
+Motorrad-Bühne des TÜVS höher gemacht
+Exploit, mit dem man einen PayDay auslösen konnte, wurde behoben
+Unsichtbare Marker bei der TÜV-Stelle kleiner gemacht
+Polizisten könen Radios bei Ruhestörung ab sofort entfernen
+Einnahmen des InterTrans beim Auffüllen von Tankstellen richtiggestellt
+Anhänger werden beim Auffüllen von Tankstellen nun richtig respawnt
+Benzin-Anhänger unzerstörbar gemacht
+Tanken nachfüllen einfacher gemacht
+Generellen Logikfehler im Tankstellensystem behoben (Liter sind nun immer richtig)
+Typo beim Laden von Wanteds behoben
+Stadtwerke-Stadtreinigung Job überarbeitet
+
+10.02.2015
+Selben Speicherschutz wie bei Gangs auch bei Telefonnummerin eingebaut
+/telefonbuch funktioniert nun, wie es soll
+Tippfehler in /sms ausgebessert
+Fehler im Telefonsystem, der Nummern aus dem Verzeichnis löschen konnte, wurde behoben
+Clicksystem (Vehicle z.B.) deaktiviert, solange man in der Hilfe (F1) ist
+
+09.02.2015
+Gangzones werden bei MySQL Problemen nicht mehr gespeichert, um Datenverlust zu verhindern
+Einstiegs-Guide geupdated
+Tooltips geupdated
+Tippfehler auf Busstationen behoben
+Man kann sich nicht mehr länger selbst einknasten/ausknasten
+"Error: Kein Bild" bei AutoFix Rank 1 behoben
+Man kann sich nur mehr ein gleichzeitig Handy kaufen
+/msg entfernt und stattdessen /sms eingebaut
+/telefonbuch zum Nummern-nachsehen eingebaut
+Scoreboard kann nur mehr wenn man tatsächlich eingeloggt ist aufgerufen werden
+Hilfe auf F1 komplett überarbeitet
+
+05.02.2015
+EXP Anzahl pro Minute im Dienst von 5 auf 15 erhöht
+EXP Anzeige überarbeitet
+Inventar kann nicht mehr mit Anklicken des Charakters geöffnet werden
+Map vor der Stadthalle überarbeitet
+Bei TÜV-Vergabe werden ab sofort Kommazahlen im Preis verhindert
+TÜV-Ablaufdatum wird nach Verwahrung ab sofort richtig gesetzt
+PA-Note in Personalausweis eingebaut
+Fehlerbehung in krankenhaus-server.lua
+Fehlerbehebung in names-client.lua
+Fehler bei der Berechnung des TÜV Preises behoben
+TÜV-Vergabestelle überarbeitet
+TÜV Status im Firmen- und Gangpanel eingebaut
+Toilette in der Stadthalle behoben
+
+02.02.2015
+EXP und Levelsystem eingebaut
+Arbeitslosengeld entfernt
+Startgeld auf 15.000 erhöht
+Zum TÜV werden nun auch 5% des Bestellwerts des Fahrzeuges hinzugerechnet
+Verlassen von Immobilien nun nur mehr mit 'F' möglich
+Dienstzeit im Knast wird nicht mehr angerechnet
+Neues HUD-Design
+
+30.01.2015
+Herstelldatum wird bei neuen Verwahrungen gespeichert
+TÜV Rechnungen können nun mit Firmenkonten bezahlt werden
+TÜV bei Fahrrädern entfernt
+Ingame-Strafkatalog auf neueste Version geupdated
+Bugfix des Undercover-Polizeiautos (Premier)
+Möglicher Bugfix für verschwindende Akten
+Weihnachtslogo im Intro mit normalen Logo ersetzt
+Schlüsselsetzen von Firmen- und Gangfahrzeugen verbessert
+
+28.01.2015
+Erneuter Testcode für Anhänger- und Abschleppwagensync-Problembehebung
+Workaround für MTA Bug #0008742
+Krankenhaus-Einsatz aus der Polizeiakademie entfernt
+Paintjob wird bei verwahrten Fahrzeugen nicht mehr entfernt (nur Fahrzeuge die ab jetzt neu verwahrt werden)
+TÜV eingebaut
+Ampeln disabled
+Police Academy überarbeitet
+Behoben, dass man über verschiedene Dimensionen hinweg Sachen aufheben konnte
+Neue Textur für Züge eingebaut
+Überschüssige Schranke am LVPD entfernt
+Automatische Passagierzüge eingebaut (durch MTA Bug derzeit nur 1 Anhänger statt 2)
+Torfehler bei neuer Verwahrungsstelle behoben
+Exploitbehebung im Rechnungsscript
+
+26.01.2015
+Fahrschul-Sentinel kann ein Fahrschulschild aufs Dach montiert bekommen
+Verwahrstelle hat eine neue Positon erhalten
+Neue Dekoration für Stadthalle eingebaut
+Lieferanten-Nebenjob nach Las Venturas versetzt und Trucks überarbeitet
+Radios können nur mehr vom Besitzer aufgehoben werden
+Änderungen bei Notizen im Jobpanel um Fehler zu minimieren
+Änderungen bei Vehicle-Teleport im Autohaus um Fehler zu minimieren
+Testcode zur Sync-Verbesserung von Abschleppwagen eingebaut
+Krankenhaus hat einen Teleporter in die Garage
+Hanf wirkt nun für 90 statt für 60 Sekunden
+Neues Gerichtsgebäude
+Stadthalle hat ein neues Icon auf der Karte
+AutoFix Mitarbeiterparkplatz mit Schranke abgesperrt
+Positionsverwechslung bei Bootswerkstatt behoben
+Wasserwacht eingebaut
+Police Academy eingebaut
+Neues LVPD eingebaut
+/einsperren auf einen Befehl reduziert
+Überarbeitung der Prozentanzeige der Hanfstauden bei Restart
+
+16.01.2015
+Farbe von /me geändert
+Erneute FPS-Verbesserungen
+Noch nicht entfernte Slotmaschinen am Weihnachtsmarkt entfernt
+Hanfsystem eingebaut (Hanfsamen für Gangs bei Hinterzimmer Joe kaufbar)
+Dr.Schnipp zur Skinänderung und Geschlechtsumwandlung im Krankenhaus eingebaut
+Neue Polizeisirene eingebaut
+Polizeiakten werden beim Löschen auch tatsächlich aus der MySQL gelöscht
+Fahrzeugmodellbezeihnung in Fahrzeuginfo (Rechtsklick) hinzugefügt
+Möglichkeit Häuser an andere Spieler direkt weiterzugeben (Privatverkäufe)
+Sortierung im Scoreboard geändert (bereits seit einigen Tagen geändert)
+Beim Rename werden ab sofort alle Schlüssel umgeschrieben, auch bei Firmenfahrzeugen
+Erneuter Bugfix bei LKW-Anhängern
+Beim Kündigen/Entlassen werden dem Spieler alle Schlüssel entfernt
+/hs als Kurzbefehl für Handschellen eingefügt
+Handschellenanlegen nur mehr zu Fuß oder im selben Fahrzeug möglich
+Fehler behoben, dass sich bei Änderungen im Gangpanel die Daten nicht sofort geändert haben
+
+06.01.2015
+Weihnachtsmarkt & Weihnachtslogin entfernt
+Polizei bekommt bei Verwahrung 200 Vero, AutoFix statt 400 ebenfalls nur mehr 200
+Internen Fehler bei Knastfunktion behoben
+Polizei-Cheetah teurer gemacht
+Balancing bei Verfolgungsjagden: Polizei Cheetah um 20 KM/H langsamer, normale Polizei-Fahrzeuge um 20 KM/H schneller gemacht
+Strafkatalog & STVO geändert
+Möglicher Fix für Problem, dass Anhänger am Hafen immer gefreezed sind
+Wanted-Level wird nun im Nametag angezeigt
+Supporter Rang direkt ins RP Script eingebaut (nicht nur ACL)
+Tankstellenraub erneut behoben
+Blaulichtfarbe des Enforcers behoben
+Scoreboard überarbeitet
+
+03.01.2015
+Handling des Polizei-Cheetah verändert
+Fehler beim Feuerwehr-Ruf behoben
+Stafkatalog auf F1 upgedated
+Blickrichtung der Spieler synchronisiert
+Fehler behoben, dass Spieler gegen Feuer immun sind
+Health-Target-Marker über Spieler entfernt
+Polizeiskins geändert
+Infrarotgläser für Polizei eingebaut
+Fehlende Sirenen bei einigen Polizeifahrzeugen eingebaut
+Tankstellenraub wieder aktiviert
+
+30.12.2014
+Einige fehlende Skin-Bilder ergänzt
+Notrufbefehle wieder behoben
+Fehlerbehbung beim InterTrans Gelände
+Verbesserung bei Feuerwehr-Base
+Reporter bekommen beim Dienst nun eine Kamera
+
+30.12.2014
+Reparatur-Kit auf 600 Vero vergünstigt
+Fehler bei Jobcall (/polizei, /autofix,...) behoben
+/pcall geht nur mehr bei der Polizei
+PayDay entgültig gefixt
+AutoFix Schild bei alter Base entfernt
+
+28.12.2014
+Fraktions-Rufe benötigten ab sofort einen angegebenen Grund (z.B. /113 GRUND)
+Polizei-Absperrungen erneut behoben
+Gebrauchtwagenhändler bekommt bei Autoverwertung ebenfalls Geld
+La Piedra Basis verschoben
+Erneute Änderung an Immobilien
+
+26.12.2014
+Polizei-Absperrungen behoben
+Lohnscript behoben
+Verbesserungen im Reservierscript für den Gebrauchtwagenhändler
+Polizei-Cheetah schneller gemacht
+Fehlerbehbung bei Fahrzeug-Reservierungen
+MySQL Änderungen bei den Interiors
+
+22.12.2014
+Eislaufbahn fertiggestellt
+Kräuterhexe am Weihnachtsmarkt upgedated
+Neue Feuerwehr-Base in LV
+Änderungen am Toiletten- und Badsystem
+Bäume werden langsamer entfernt
+
+21.12.2014
+Tankstellenraub temporär deaktiviert
+Auto- und Gebrauchtwagenhändler kann Fahrzeuge für spezielle Kunden reservieren
+Fahrzeug-Herstelldatum hinzugefügt (alle jetzigen Fahrzeuge haben 19.12.2014)
+Pizza-Nebenjob nach LV versetzt und Verdienst erhöht
+Fahrzeuge werden beim Kauf wieder aus dem Autohaus geportet
+Fehler bei Banküberweisung behoben, der das Überweisen unmöglich gemacht hat
+/abschleppen kann keine zweirädigen Fahrzeuge mehr anhängen
+Ped-Respawn überarbeitet um kleinere Fehler zu beheben
+Diverse Fehlerbehebungen beim Tankstellenraub
+Fehlerausgabe-Spam in root-server.lua und tankraub-server.lua behoben
+Bugs in /reparieren behoben, die den QuickFix lahmlegen konnten behoben
+Befehl eingebaut, mit dem die Polizei Verstärkung rufen kann
+Info bezüglich Network-Trouble am Zahltag
+
+18.12.2014
+Bug behoben, dass Vehicle unzerstörbar werden konnten
+F1 geupdated
+
+14.12.2014
+Weihnachtsmarkt eingebaut
+Viele neue konsumierbare Items eingebaut (Hot-Dog, Pizzaschnitte,...)
+Fastfood-Laden am Busdepot hat nun anderes Sortiment
+Man kann keine Kommazahlen mehr überweisen
+/abschleppen kann keine Fahrzeuge mit Fahrer mehr abschleppen
+Fehler bei Tankstellenraub behoben und Raubzeit auf 2 Minuten verlängert
+Es ist nicht mehr möglich den Fahrer eines Busses aus seinem Fahrzeug zu ziehen
+Behoben, dass unter gewissen Umständen T und B immer noch während Reparatur disabled sind
+Behoben, dass Autos im Autohaus nicht immer gefreezed waren
+Nachricht der Autoverwertung wurde an alle geschickt behoben
+Autoverwertung funktioniert nun auch mit Firmenfahrzeugen immer zu 100%
+Einnahmen werden bei /verwahrung dazugerechnet
+Pfefferspray behoben
+
+08.12.2014
+Supporter in Scoreboard sichtbar
+Admin-Befehl um Gang zu setzen eingebaut
+Tankraub hinzugefügt
+Autohaus- und Gebrauchtwagenhändler-Fahrzeuge können nicht mehr verschoben werden
+Fahrzeug wird weiter hinter dem InterTrans LKW ausgepackt
+Stadtwerke-Straßenreinigung Marker in Stadthalle behoben
+Besser sichtbares Icon am Stadtverwaltung-Straßenreinigung Job hinzugefügt
+Firmen- und Gangfahrzeuge können bei Üzgür von Chefs verschrottet werden
+Rückwärtston von Fahrzeugen wird beendet, sobald sich kein Spieler mehr darin befindet
+Typo Tancebase -> Trancebase behoben
+Chat während Reparatur nun auch über T, B etc. aktiviert (nicht nur F8 Konsole)
+Tor bei AutoFix LV verschoben um Spalt zu schließen
+Fehlerhafte Keypadbeschriftung im AutoFix SF behoben
+1. Tor im AutoFix LV hat nun keinen Spalt mehr
+Falsches Hebebühnenobjekt in LV beim 5. AutoFix Tor ausgebessert
+Positions des Einfahrtschildes über 5. AutoFix LV Tor verbessert
+Bug behoben, dass auf manchen Rampen des AutoFix 2 Fahrzeuge gleichzeitig repariert werden konnten
+Reparaturbereich beim AutoFix kleiner gemacht, damit Hebebühnen sich nicht überschneiden können
+Parkschild im AutoFix texturiert (ID: 1233 für Mapper)
+
+06.12.2014
+Tankstellen gehen schneller leer damit mehr Arbeit für InterTrans verfügbar ist
+Gefixt, dass man mit Traktoren das neue Parksystem aushebeln konnte
+"U" kann nur noch von Reportern im Dienst verwendet werden
+Fix Teleport bei Busbahnhof & Staatsverwaltung Toiletten
+Neuer AutoFix in Las Venturas
+Preis des Sparrows behoben
+Rechtschreibfehler beim AutoFix behoben
+Rechtschreibfehler in Infomessages behoben
+Workaround für MTA Objektstreaming Fehler eingebaut
+Möglicher Workaround für Anhänger wieder entfernt, da dieser nicht wie gewollt funktioniert hat
+Typo in Credits
+
+05.12.2014
+Gang-Interiors behoben
+Rechtschreibfehler in Info-Messages behoben
+Bus-Ansage Redsands West behoben
+Mapfehler beim Krankenhaus behoben
+/abschleppen eingebaut, wenn Vehicle nicht normal abgeschleppt werden kann
+Geldexploit im Taxi-Nebenjob behoben
+Neuer Nebenjob: Stadtwerke Straßenreinigung
+Toiletten am Busbahnhof und in der "Werkstatt" funktionsfähig
+
+01.12.2014
+Behoben, dass LKW Anhänger durch neues Parksystem nicht mehr angehängt werden können
+
+01.12.2014
+Neues und verbessertes Parksystem
+Exploit behoben, dass abgeschlossene Motorräder geklaut werden konnten
+Regeln Update auf F1
+/rechnung an sich selber ist nicht mehr möglich
+Wurstsemmelpreis bei Slotmaschine behoben
+Slotmaschinen GUI ist nicht mehr move- und resizeable
+Credits upgedated
+Neue Buslinie eingebaut
+Überflüssige Mapobjekte entfernt
+Bus-Texturen überarbeitet
+Login nun weihnachtlich gestaltet
+Abfahrtsanzeigen bei Bus-Stationen eingebaut
+
+28.11.2014
+Icon für Newsreporter-Base eingebaut
+OOC Chat funktioniert wieder, wenn man Dienst in Newsfraktion beendet
+Slotmaschinen im Four-Dragons-Casino eingebaut
+Radio-Item funktioniert wieder
+Größere Fahrzeuge spawnen beim AutoFix nicht mehr im Boden
+Probleme beim Auspacken von Fahrzeugen (InterTrans) behoben
+Fehler bei neuen Polizei-Skins behoben
+
+23.11.2014
+Waffenschein 3 entfernt und kaufbare Waffen geändert
+Fehlende Ammunation-Verkaufsstellen hinzugefügt
+Pfefferspray-Dose und Feuerlöscher tötet Spieler nicht mehr instant durch massive Blutungen
+Deagle bringt keinen Schaden mehr wenn Tazer aktiviert ist
+Polizeiskins geändert
+Behoben, dass man in die Gang-Interiors sein Fahrzeug mitnehmen konnte
+Verdienst beim Bus-Minijob erhöht
+/waffencheck eingefügt
+
+17.11.2014
+Schwimmbad-Icon hinzugefügt
+Baumhaus wieder hinzugefügt und als Bar markiert
+Maximale Hausschlüssel von 2 auf 4 geändert
+Feuerwehr-Map upgedated
+Taxis sind nun im Busdepot, welches erneuert wurde, aufgehoben
+Problem mit fehlender Tachonadel behoben
+Neue Fraktion: Reporter (viNETWORK)
+Feuerwehr-Station in SF und 2. in LV eingefügt
+
+13.11.2014
+/report auf Deutsch übersetzt (Admin Resource)
+Sirene für AutoFix Abschleppfahrzeuge eingebaut
+Fix für letzen Haus-Admin-CMD-Commit
+Probleme beim Deaktivieren von Accounts behoben
+Probleme und Exploits der Handschellen behoben
+Alternative Telefonnummer für Sanitäter als Easter-Egg eingebaut (IT Crowd Anspielung)
+Hintertüren-Bind für AutoFix Angestellte in LV
+Moderatoren können ab sofort Namen ändern
+Radiosender geänadert-
+
+10.11.2014
+Fix, dass man in Dusche steckenbleiben kann
+Heli-Magnet Binds nun auch mit Commands verwendbar
+/rename schreibt nun auch Häuser und Wanteds mit
+Behoben, dass man beim Verwahren von Fahrzeugen in eine andere Dimension kommt
+Positionen beim neuen Tacho verbessert
+Fahrzeuge können brennend nicht mehr mit dem Heli transportiert werden
+Fahrzeuge die bereits eine Panne haben können durch weiteren Schaden nicht mehr brennen
+Häuser-CMDS können nun von Admins und Mods auch ohne den Job "Beamter" ausgeführt werden
+Spieler werden von Handschellen befreit wenn Polizist stirbt
+/autosanzeigen zeigt nun Firmenchefs auch an, ob sich ein Firmenfahrzeug in der Verwahrung befindet
+
+06.11.2014
+Info Messages am oberen Bildschirmrand werden öfter angezeigt
+Icons für Feuerwehr und Shops geändert
+Neues Tachodesign
+Fix bei Einnahmen-Statistik im Feuerwehr- und Sanitäterscript
+Wenn man die Zelle der Polizei verlässt wird man nun außerhalb des abgesperrten Interiors gespawnt
+Modding-Teile blockiert, die bei manchen Spielern Spielabstürze verursachen können
+Positionen bei Feuer- und Baumeinsätzen der Feuerwehr behoben
+Absperrung der Feuerwehr können nun wieder gelöscht werden
+Fix beim Annehmen von Krankenhaus-Anfragen
+Feuerwehr-Sirenen eingebaut
+Feuerwehr-Rechnungen können genauso wie AutoFix Rechnungen von Firmenkonto gezahlt werden
+Wichtige Jobicons werden nicht mehr durch Radarblips übermalt
+
+03.11.2014
+Typo bei /113 behoben
+Fehler, dass Bäume manchmal nicht von der Straße entfernt werden
+Fehler beim annehmen von Aufträgen behoben
+Bei /checkausliefern wird auch angezeigt wie viel es zum liefern gibt
+Weiter Anpassung von "Tod" zu "schwer verletzt"
+Exploit bei /hidetacho entfernt
+
+
+02.11.2014
+Feuerwehr als neue Fraktion hinzugefügt
+Es sollte zu keinen Hausduplizierungen mehr kommen
+Dirtring zu Duchifal Arena umbenannt
+ATM bei Gebrauchtwagenhändler hinzugefügt
+Dienstskin des Medic-Leaders geändert
+Motorradschein heißt nun Motorradführerschein
+Wettersystem behoben
+Tankstellen-Kapazität von 100.000L auf 25.000L geändert um mehr Arbeit für InterTrans zu generieren
+Credits auf den neuesten Stand gebracht
+"Sterben" in "schwer verletzt" geändert um Realismus zu erhöhen
+Nachricht wenn man beim Freikaufen des Fahrzeuges zu wenig Geld hat
+Chatfarbe verändert sich bei größerer Entfernung im normalen Chat
+Verbesserungen beim Schlüsselvergeben in Firmen-/Gangpanel
+Network-Trouble um 20:15 (Gangebiet Auszahlung) behoben
+AFK-Check in Fraktions-Rufbefehle (z.B. /112) eingebaut
+Polizei bekommt pro verbrachter Knastminute 100 Vero zur Finanzierung der Mitarbeiter
+Megafon für Polizei einegbaut
+/auftrag zu /markierte geändert um Probleme mit annehmen-Befehl zu beheben
+Umlaute im Personalausweis korregiert
+Neuer Befehl /jailtime für Polizei
+Typo im Reparaturgui behoben
+Mehr Icons auf der Map hinzugefügt (Tankstellen, Shops, Essen, Waffenladen, Bars)
+Reparaturzeit im AutoFix heruntergesetzt
+Exploit im Taxijob behoben
+
+17.10.2014
+Doppellte-Türen im AutoFix Blueberry behoben
+Duty-Punkt des Gebrauchtwagenhändlers verschoben
+AutoFix Gelände bearbeitet
+Autos die sich im Gebäude von Ares befinden werden beim Kauf rausgespawnt
+Skin-Selection funktioniert nun auf allen Tastaturen (Laptop-Problem)
+Behoben, dass jeder den Motor von Fahrzeugen starten kann, die zum Verkauf stehen
+
+27.10.14
+Sirenen der Krankenhaus-Fahrzeuge editiert
+Bedürfnisse erneut schneller gemacht
+Gebrauchtwagenhänlder umgesiedelt
+Annehmen von Jobanfragen überarbeitet
+AFK Check bei Verbandszeug und Reparatur-Kit eingebaut
+Bus-Minijob und LKW-Minijob profitabler gemacht
+Bei /werbung Nero zu Vero geändert
+Probleme im Bank-Überweisungs-GUI behoben
+Reparatur-Kit Preis geändert
+
+24.10.2014
+Erneute Veränderung am Error-Handling bei Vehicle-Datenfehlern
+
+24.10.2014
+Reparatur Kit für Fahrzeuge kaufbar in allen Shops
+Behoben, dass Verbandszeug auch nicht erlaubt ist wenn ein Sani außer Dienst online ist
+Verwarung erneut behoben
+Error-Handling bei Vehicle-Datenfehlern geändert
+Möglichkeit, auf den eigenen Spieler zu klicken um Inventar zu öffnen
+Behoben, dass Öl-, Batteriewechsel etc. bei Fahrer in Fahrzeug möglich war
+Krankenwagen schneller gemacht
+Aufträge wie /sani, /adac etc. können nun von Mitarbeitern angenommen werden
+Krankenhaus-Passanten kommen nun öfter vor
+
+22.10.2014
+Typo in /verwarung (zu /verwahrung geändert)
+Verwahrung für AutoFix nur mehr möglich, wenn Fahrzeug markiert wurde
+
+21.10.2014
+Unsichtbare Collisions am AutoFix Gelände behoben
+Österreichische Polizeisirene nun tatsächlich hochgeladen
+Debugnachrichten aus Sirenenscript entfernt
+Verwarungs Funktion für AutoFix freigeschalten
+Fehler beim Speichern der Fahrzeuge, wenn ein Fahrzeug in der Verwarung ist
+
+20.10.2014
+Behoben, dass BMX Jumps unter gewissen Umständen noch immer möglich waren
+ATMs und Keypads sind nicht länger zerstörbar
+Information, dass bei Waffenkauf Waffe im Inventar ist
+Überarbeitete Autohaus Map
+Musik zu Stereoanalge in Autohaus hinzugefügt
+Neuer AutoFix
+Verbrauchen von Bedürfnissen erneut schneller gemacht
+Österreichische Polizeisirene als alternative Sirene eingebaut
+Sirene mit 3D Sound damit man die Position des Sounds erkennen kann
+Spam mit Megafon im Polizei-Vehicle verhindert
+3D Text über Fahrzeug, wenn es zum Abschleppen markiert wurde
+Verkaufspreis wird über dem Fahrzeug angezeigt
+Erneut behoben, dass man an sich selbst Geld überweisen konnte
+Debug CMDs entfernt
+Automatischer-Scriptrestart behoben
+Tuning-Werkstatt so überarbeitet, dass man auch LKWs tunen kann
+Tahoma modbar gemacht, da er keine Carmod mehr ist
+Sirenen für beitretende Spieler synchronisiert um desync zu verhindern
+Behoben, dass Namen mit einem großen "Z" nicht funktioniert haben
+Behoben, dass man im AFK Modus sterben kann
+Behoben, dass man Geld-Kommazahlen haben kann
+Neue AutoFix Stelle in Blueberry
+Interner Fehler im Bus-Minijob-Script behoben
+
+16.10.2014
+Bugfix, dass neue Fahrzeuge teilweise nicht gespeichert wurden
+
+15.10.2014
+Symbol für temp. Führerschein in San Fierro eingebaut
+Unmöglichen Marker in Trucker-Minijob entfernt
+Einnahmen bei Pizza- und Fischer-Minijob erhöht
+Taxidienst Anti-Spam behoben
+Passanten-Einsätze gehen nun zur hälfte an die Fraktion
+Typo bezüglich Immobilien in Erste Schritte Guide
+Teamspeak IP zu "Erste Schritte" hinzugefügt
+Neues Autohaus eingebaut
+
+15.10.2014
+Fahrrad-Skills heruntergesetzt um unrealistische Sprünge zu verhindern
+Öffentliche Fahrräder langsamer gemacht
+MySQL System umgebaut um die meisten Network-Troubles zu entschärfen
+Behoben, dass Vehicle nach dem Scriptrestart automatisch aus der Verwarung gebracht wurden
+PayDay behoben
+
+13.10.2014
+Cooldown nach beenden der Minijobs eingebaut, um Geldverlust zu verhindern.
+Exploit bei Rechnungen behoben
+Anzeige bei Nebenjobs nach unten verschoben, damit Radio-Anzeige weiterhin sichtbar ist
+Bedürfnisse sinken schneller
+Typo bei Verwendung des Verbandszeug behoben
+Preis der NRG erhöht
+Bus-Nebenjob eingebaut
+Man bekommt nun weniger Geld bei Trucker-Nebenjob
+Nero zu Vero beim Wilden Ösi geändert
+
+13.10.2014
+Nach Registration wird man auf die Hilfe ('F1') aufmerksam gemacht
+Immobilien-/ Haussystem komplett behoben
+Behoben, dass man in Taxi weniger Geld bekommen/verloren hat als am Bildschirm stand
+Behoben, dass man an sich selber Überweisen konnte
+Fehler bei temporären Führerschein behoben
+Dienstbeginn/Dienstende Spam unmöglich gemacht
+Respawn-Zeit der Fahrräder erhöht (von 1 auf 3 Minuten)
+
+13.10.2014
+Verusch MySQL Bug (Network Trouble) zu beheben
+Behoben, dass Überweisungen mit Kommastellen möglich waren
+Motorstart als Alternative auf 'C' gelegt
+Meldung, wenn man Minijob ohne benötigtes Fahrzeug starten will
+Passanten-Jobs bei Krankenhaus behoben
+InterTrans-Einnahmen beim Auftanken von Tankstelle wird nun korrekt hinzugefügt
+Tankanhänger respawnt nun wie geplant nach Auftanken einer Tankstelle
+Wetter ändert sich öfter als im Moment
+
+12.10.2014
+Error beim Einstellen von Spielern über das Firmenpanel behoben
+Jobpickup von InterTrans verschoben
+Bus-Minijob während "Streik" aus Stadthalle entfernt
+Auslieferung von Benzin wird als Einnahmen dazugerechnet
+Verunfallte Peds (KH-Job) werden unter dem Boden gespawnt behoben
+Behoben, dass Blips der verunfallten Peds manchmal nicht gelöscht werden
+Bei Essenmenü "Nero" auf "Vero" geändert und Schreibfehler behoben
+Hausicons verdoppeln sich bei Restart nach Kauf/Miete nicht mehr (Immobiliensystem)
+Jobnotiz-Reset behoben
+Vergessener Yosemite Carmod entfernt
+Behoben, dass Rechnung doppelt bezahlt werden konnte
+Reparieren ab einer bestimmten Promille nicht mehr möglich
+AutoFix Magnet behoben
+Fahrzeuge werden bei Reparatur gefreezed
+Blutungssystem eingebaut
+Keypad bei InterTrans behoben
+Polizeiakte Reloaded (+ Wanted Level)
+Gamemode-Restart um 4 Uhr in der Früh
+Neue Krankenhaus Map
+Nebenjob Fahrzeuge respawnen nach Explosion
+Autohaus Lift nun für jeden benutzbar
+Minijob kann nicht mehr gestartet werden, wenn man im Dienst ist
+Umlaute in Firmenpanel eingebaut
+Todesanzeige nach Respawn entfernt
+Polizei-Absperrungen sind nicht mehr breakable
+Fernlicht temporär entfernt, da es Lags verursacht
+
+08.10.2014
+Möglicher Bugfix für seltenen Fehler beim aufladen von Tankstellen (Anhänger respawnt nicht)
+Fehler in Tuning GUI behoben
+Feedback bei Nicht-Bestehen des temporären Führerscheins überarbeitet
+Temporärer Führerschein behoben
+Hilfe/Gesetze überarbeitet
+
+07.10.2014
+Tankstellen größer gemacht
+Tankstellen werden nicht mehr aufgeladen wenn sie bereits voll sind
+Tankstellen Blips haben nun aktuelle Farbe
+
+06.10.2014
+Pizzabikes mit Pizza 24 Liefermobil ausgetauscht
+Pizza24 Liefermobil schneller gemacht
+Problem mit Checkpoints im Bootsminijob behoben
+Fernlicht bei Motorrädern disabled
+Vehicle nicht mehr dreckig
+Clicksystem disabled wenn ein GUI angezeigt wird
+Nach Reperatur wird Animation richtig beendet
+Neuer Radio Sender "Kronehit Vollgas"
+
+29.09.2014
+Bugfixes beim Login mit Großbuchstaben im Namen
+Fahrschul Icon aus SF gelöscht
+Tanken bei temporären Fahrzeugen disabled
+Nach dem Healen des Peds verchwindet Marker behoben
+Fix in Chatausgabe bei /checkausliefern
+Auffüllen von Tankstellen geht nun an InterTrans Konto
+
+27.09.2014
+Script auf MySQL umgeschrieben
+Neues Register/Login Script
+Radioscript verbessert und Sender aktualisiert
+Fernlicht überarbeitet
+Alkoholtod wird nicht mehr jedem Spieler angezeigt
+Notification Script mit Vita3 Notifications ersetzt
+Fahrzeugpreise überarbeitet
+Sirenen für alle Fahrzeuge direkt ins Script eingebaut
+Mute Funktion behoben
+Neues Klicksystem (u.a. Automenü) eingebaut
+Dispatch System
+Funk darauf beschränkt, wenn man im Dienst ist
+Anti-Spam bei /adac, /polizei etc...
+Logger auf Rechnungen ausgedehnt
+Sonderzeichencheck eingebaut
+Fahrzeuge werden bei der Reperatur gefreezt
+Moneydrop beim Tod
+Animationen beenden behoben
+Nach Alkoholtod verliert man Alkoholstand
+Reverse Gear Sound überarbeitet
+/checkauslifern für Transportunternehmen
+Anzeige bei Tod und Knast
+Funk funktioniert nach Jobwechsel
+/taxi etc. deaktiviert wenn kein Mitarbeiter online ist
+/waffenabnehmen nimmt nun auch Waffen aus dem Inventar ab
+Vehicle auf RGB Farben umgestellt
+Spieler können keine Gangwars machen wenn sie im Dienst sind
+Tanken und AutoFix Reperaturen auf Firmenkonto möglich
+Radio im AutoFix LV
+Fahrzeuge können wieder aus dem Pony oder DFT ausgepackt werden
+Überweisen bei Bank möglich
+Stadthalle eingebaut
+Neues AutoFix LV Gelände eingebaut
+
+07.10.2012 - Sebihunter
+Spielersystem auf MySQL
+Credits upgedated
+Fscheinentziehen Debug MSGs entfernt
+Sonderzeichen im Namen unmöglich
+LOS bei Nametags eingebaut
+Muten ist nun möglich
+Gangfahrzeuge können aus der Verwarung geholt werden
+PD Teleport behoben
+Handschellen brechen nicht mehr, wenn man in ein anderes Interior wechselt
+TSchein Freeze behoben
+Tempomat behoben
+Bei Tod im Gefängnis spawnt man dort erneut
+
+26.09.2012 - Sebihunter
+Polizei Tore im PD eingebaut
+
+23.09.2012 - Sebihunter
+Alkohol geht schneller ins Blut
+
+09.07.2012 - Sebihunter
+Exploit behoben, Fahrzeuge ohne Kauf fahren zu können
+
+11.06.2012 - Sebihunter
+Angefangen mit Umstrukturierung und Aufräumen des gesamten Scripts
+Entfernung der Maut nach Spielerfeedback
+
+10.06.2012 - Sebihunter
+Ausgabe von "Test", wenn man ein Auto betritt, entfernt
+Beim löschen eines Spielers wird Bank-Account entfernt
+/adac, /110 und /autofix hat neuen Parameter für Informationen
+Munitionsanzeige für Waffen eingebaut
+Gedropte Items werden beim Script-Neustart gespeichert
+
+06.06.2012 - Sebihunter
+Bugfix bei Pizzajob
+Mautstellen eingebaut
+GPS heißt nun Radar um Verwirrung zu vermeiden und funktioniert wieder
+Tutorial angepasst
+
+05.06.2012 - Sebihunter
+ToolTips eingebaut
+
+03.06.2012 - Sebihunter
+Version nun 1.2.1
+Bugfix: Peds können nicht mehr sterben
+Neues Item: Strandtuch
+Neues Item: Vodka
+Neues Item: Radio
+Items auch mit "F" aufnehmbar
+
+01.06.2012 - Sebihunter
+Neues Item: Kaffee
+Bugfix: Ablegen von Items auch in Interiors anderen anderen Dimensionen möglich
+Alle Waffen nun auch als Items verfügbar
+Waffenladen und Hinterzimmer Joe verkaufen Waffen in Itemform
+
+30.05.2012 - Sebihunter
+Gangzeiten runtergesetzt
+Fix bei Bahnhöfen und andere Farbe für Marker
+/gangwar um einen Gangwar zu starten
+Gangchat eingebaut
+/gangcall eingebaut
+Anzeige beim Gangwar, wie lange es noch bis zur Eroberung dauert
+Neuer DaNang Base am Four Dragons
+
+29.05.2012 - Sebihunter
+Erneuter Barfix
+Bahnfahrten an Bahnhöfen ermöglicht
+Neuer Nebenjob: Fischer
+Neuer Autohandel in San Fierro
+Bugfix: Schlüssel setzen bei Gangs
+Gangs in Scoreboard
+
+28.05.2012 - Sebihunter
+Tankkanister behoben
+Anpassung der Nebenjobverdienste (Mehr Verdienst bei Bus und Rasenmäher, weniger bei Trucker)
+Neue Tankstelle + Shop in San Fierro
+"Die Werkstatt" als neuer Szenetreff in San Fierro
+San Fierro Park
+Bank Bug behoben
+
+
+27.05.2012 - Sebihunter
+Versionsnummer nun 1.2.0
+Gangs haben nun eigene Bankkonten
+Ganggebiete eingebaut
+Gangs können Gang Gebiete übernehmen
+Ganggebiete geben jeden Tag um 20:15 200 Vero
+Nametags überarbeitet
+Tante Emmas Laden mit Hinterzimmer Joe eingebaut (illegaler Waffenhändler)
+Gangbasen überarbeitet
+Barkeeper können nicht mehr umgebracht werden
+
+
+20.05.2012 - Sebihunter
+Registrier Bug bei Zug behoben
+Mehr Pizzaroller
+Öfter NPC Einsätze für Krankenhaus
+Beim Aussteigen aus Bus gibt es keine Bugs mehr
+Mehr Verdienst bei Lieferwagen Job
+
+19.04.2012 - Sebihunter
+Adlerauge Tor
+
+27.03.2012 - Sebihunter
+Bugfixes bei Autologin
+
+02.03.2012 - Sebihunter
+Version nun 1.1.2
+Im Funmodus respawnt man sofort nach dem Tod auf der Position, auf der man vorhin war.
+Spieler und deren Autos/Häuser können nun von Administratoren gelöscht werden
+Schrottplatz/Verwahrstelle neben AutoFix, für AutoFix, eingebaut
+Telefonsystem repariert
+
+05.02.2012 - Sebihunter
+Admins können Vehicle zu sich teleportieren
+
+02.02.2012 - Sebihunter
+Teleport Bug im PD behoben
+
+02.02.2012 - Sense
+Fix fürs Geld senden das keine Nachkommastellen mehr funzen (money -> math.floor(money))
+
+30.01.2012 - Lexlo
+settings.xml wird Clientside created
+/createMarker [number1-3] eingebaut für ein eigen gesetztes Blip auf dem Radar und in der settings.xml gespeichert
+/deleteMarker [number1-3] eingebaut um den Blip aus der settings.sml zu löschen
+
+29.01.2012 - Sebihunter
+Neuer "Lift" in LVPD
+
+28.01.2012 - Sense
+Burrito kann nun auch Zweiräder einladen, jedoch nur als Gebrauchtwagenhändler
+
+27.01.2012 - Sense
+Gebrauchtwagenhändler eingebaut
+GUi des Autohändler gefixt so das dieser wieder im dienst die Fahrzeuge fahren kann
+
+26.01.2012 - Sebihunter
+SkippKomode an Silvio McHollin übertragen
+Corbys Haus eingebaut
+Karsten Komodes Haus eingebaut
+
+23.01.2012 - Sebihunter
+Ausbildungscenter hinzugefügt
+Haus von Silvio eingebaut
+
+21.01.2012 - Sense
+Selbst-Heilen von Sanis ausgebaut
+Einsperren in unterschiedliche Zellen möglich
+
+19.01.2012 - Sense
+Reparieren für Flugzeuge behoben
+
+18.01.2012 - Sense
+Neue Krankenhaus Map
+
+15.01.2012 - Sense
+ADAC zu-Abschleppende Vehicle werden nun 3 Minuten und auch auf der Minimap angezeigt
+
+09.01.2012 - Sense
+Trucker Blip position geändert
+ADAC Helipad Repair für Flugzeuge hinzugefügt
+
+08.01.2012 - Sebihunter
+/rename um Personen umzubenennen
+Falschparker können nun von Polizisten gemeldet werden
+
+02.01.2012 - Sebihunter
+Nebenjob für Sanitäter wieder eingebaut und Memory-Leak behoben
+
+27.12.2011 - Sebihunter
+Alle Files zu UTF8 konvertiert
+Sicherheitsfehler behoben
+
+23.12.2011 - Sebihunter
+Versionsupdate auf RPG 1.1.1
+Alkoholsystem eingebaut
+Neues Item: Bier
+/alkotest für die Polizei
+Alte Bank vollständig entfernt und mit neuem System ersetzt
+Apres Ski Musik im Wilden Ösi eingebaut
+Palm Beach Club im Visage
+
+18.12.2011 - Sebihunter
+Update auf MTA 1.2
+Gesyncte/Gespeicherte Vehicle Variationen
+AutoFix kann nun Paintjobs und Vehicle Variationen setzen
+Bugfix beim Aufbauen der Gridlisten im Admin-, Gang- und Jobpanel
+
+16.12.2011 - Sebihunter
+Erstellung von Doppelaccounts nicht mehr möglich
+
+06.12.2011 - Sebihunter
+Einführung verschiedener Rankskins beim AutoFix
+
+03.12.2011 - Sebihunter
+Automatische Rettungseinsätze für Sanitäter
+
+20.11.2011 - Sebihunter
+Skippers Lagerhalle eingebaut
+Truckerbase verlegt
+
+14.10.2011 - Lexlo
+Regestrierung weg genommen
+
+08.10.2011 - Sebihunter
+Nero in Vero geändert
+
+15.09.2011 - Sebihunter
+Version auf 1.1.0 upgedated
+Gangs eingebaut
+
+02.09.2011 - Sebihunter
+Ampeln sind nun funktionsfähig und synchron
+
+31.08.2011 - Lexlo
+Krankenhaus-garage eingabaut
+
+30.08.2011 - Lexlo
+HeliPad eingebaut
+
+28.08.2011 - Sebihunter
+Version nun 1.0.8
+Weitere Funktionsänderungen auf 1.1
+Fix für Skin 294
+Verschiedene Skins für verschiedene Ränge
+
+23.08.2011 - Sebihunter
+Firmenautos können nun auf Verwarung geholt werden
+
+22.08.2011 - Sebihunter
+Bugfixes bei Polizei/Sani/Adminlichtern
+Polizei/Sani/Adminlichter funktionieren nun auch auf Motorrädern
+
+22.08.2011 - Sense,Lexlo,Mr.X
+Nicht abgeschlossene Autos sind nun nicht mehr gefreezed und protectet
+
+21.08.2011 - Lexlo
+afk wird nun geloggt
+/sende wird nun gelogt
+/einladen wird nun gelogt
+/adminlicht und /ambulancelicht eingebaut
+
+20.08.2011 - Lexlo
+/eskortlicht eingabaut für Polizei
+
+20.08.2011 - MrX
+Spieler im AFK Modus sind unverwundbar
+
+19.08.2011 - MrX
+/scoresettings eingebaut (rpgscoreboard, Ermöglicht Einstellung von Scoreboardgeschwindigkeit und ob die Animationen genutzt werden sollen)
+
+18.08.2011 - Lexlo
+Alarmanlage bei Autos eingebaut
+
+18.08.2011 - Sebihunter
+Einnahmen/Dienstzeit werden auch zurückgesetzt, wenn Spieler online ist
+Einnahmen/Dienstzeit werden auch zurückgesetzt, wenn der Spieler entlassen/eingestellt wird
+Beim AFK Modus wird die Knastzeit nicht mehr abgezogen und die Dienstzeit nicht mehr hochgesetzt
+
+15.08.2011 - MrX
+Autoafk nach 15 Minuten eingebaut
+
+15.08.2011 - Sebihunter
+Fix für Öl/Batterie/Wasser auffüllen
+Unverwundbar in AFK
+
+13.08.2011 - MrX
+Fix für Autohausfahrzeuge (Kein Ausstieg, wenn zu wenig Geld)
+
+13.08.2011 - ReWrite
+Clientside Log
+
+13.08.2011 - Sebihunter
+Exploit beim Busjob behoben
+Fix für KM Bug bei Vehicles ohne Motor (Sonst buggt FirmenGUI)
+Taxilicht ist nun synchron
+
+12.08.2011 - Sebihunter
+Hausverkauf CMD
+Neuer Nebenjob: Taxifahrer
+
+12.08.2011 - MrX
+Sanitäter können sich nicht mehr selbst wiederbeleben
+Sanitäter können das Krankenhaus kostenlos verlassen
+Tote Sanitäter werden nicht mit eingerechnet, wenn überprüft wird ob ein Sani Online ist
+Selbstwiederbelebung durch Reconnect behoben
+Truckerdienstpunkt nach LV verschoben
+Firmen können nicht mehr Lohn auszahlen, als sie auf dem Konto haben
+Maximallohn auf 30 Nero / Minute und Minimallohn auf 0 Nero / Minute gestellt
+Kontenlog gefixt
+makePlayerExitVehicle() eingefügt, um einen Spieler aus einem Auto aussteigen zu lassen
+Anstelle aus einem Auto geportet zu werden, steigt der Spieler aus
+Automatische Speicherung aller Spieler auf dem Server
+Bug in Verbindung mit dem Adminpanel gefixt (Adminresource musste nach rpgs Neustart ebenfalls neu gestartet werden)
+Adminfahrzeug Unklaubar und Unkaputtbar
+Sichtreichweite von Nametags erhöht
+
+10.08.2011 - Lexlo
+Autos beim Autohaus sind nun unzerstörbar
+
+10.08.2011 - Sebihunter
+Greenwood nicht mehr modbar (hat crashes verursacht)
+Häuser können nun gemietet werden
+
+10.08.2011 - MrX
+Neues Inventarsystem
+Wetterwechsel verbessert
+
+09.08.2011 - Sebihunter
+Banksystem wird nun auch bei Spielern mit kleiner Auflösung angezeigt
+
+09.08.2011 - Lexlo
+Bug behoben bei dem Banksystem
+
+07.08.2011 - MrX
+Fehlernachricht bei Ungültigen Namen verbessert. (Zahlen und Sonderzeichen führen zu Fehlern, ebenso Großbuchstaben mitten im Namen)
+
+08.08.2011 - Lexlo
+Kurzzeit-Führerschein eingeführt
+
+08.08.2011
+Immobiliensystem hat nun 3 verschiedene Pickups (Kaufbar, vermietet, gekauft)
+FirmenGUI fertiggestellt
+Automatisches Bezahlsystem
+
+07.08.2011
+Busjob Linie 2 eingebaut
+Mehr Busse eingebaut
+Behoben: Man kann bei Nebenjobs mehr Geld bekommen als vorgesehen
+
+06.08.2011
+Alter Busjob eingebaut (funktioniert, derzeit nur 1 Linie)
+Tankkanister funktioniert nun wieder
+FirmenGUI eingebaut (jedoch noch nicht aktiviert da automatische Bezahlung fehlt usw)
+
+02.08.2011
+Neues Item: Ersatzreifen
+
+31.07.2011 - Lexlo
+"Join/Was ist neu-Message" eingebaut (root-server.lua)
+
+31.07.2011 - Sebihunter
+Version hochgesetzt (1.0.6 -> 1.0.7)
+Häuser haben nun Unterscheidung Besitzer/Mitbewohner
+Hausbesitzer kann 2 Mitbewohner auswählen
+Häuser können nun auch ohne Immomakler gekauft werden
+Häuser funktionieren nun mit GUI
+
+29.07.2011 - MrX
+/annehmen eingebaut
+Führerschein hat einen Preisparameter
+Waffenschein hat einen Preisparameter
+Heilen hat einen Preisparameter
+/rechnung eingebaut
+isInRange() eingebaut (Siehe root-server.lua)
+Reichweitenbeschränkungsparameter(?!) für getPlayerFromName2 eingebaut
+meta.xml von neonweapon gefixt. (33.png fehlte)
+User werden nach 10 Minuten Offlinezeit automatisch aus dem Dienst geholt
+Debugwarnung in adac-server.lua behoben
+
+28.07.2011 - MrX
+Autohändler können Autos nur für Mindestens Kaufpreis + 800 Nero verkaufen
+Chat, OOC, Jobfunk werden geloggt
+
+27.07.2011 - CubedDeath
+Admin Panel zeigt in der Fahrzeuge Spalte nun auch den Fahrzeug Status an
+Einige Scriptfehler behoben (es gibt noch fehler in tacho-client)
+keypad-client.lua aus der meta auskommentiert (Fehler)
+Unverwundbare Peds Funktion behoben (Fehler)
+Advert Funktion verändert (noch nicht aktiv)
+
+26.07.2011 - MrX
+DFT-30 kann Fahrzeuge transportieren
+Pony kann ein Motorrad / Fahrrad transportieren
+keypad-client.lua gelöscht
+keypad-server.lua verbessert (Clientseitige Komponente entfällt :D)
+Unverwundbare Peds gefixt
+
+25.07.2011 - Sebihunter
+Verwarungsstelle eingebaut
+SASO Mitarbeiter können Fahrzeuge für 3 Sekunden öffnen
+Wetterscript aktiviert
+Bandbreitenoptimierung bei Fahrzeugdatenspeicherung
+fakeVehicles hinzugefügt
+Fehler bei Wiederbeleben behoben (eigener Name angezeigt wenn man jemanden wiederbelbt, anstelle des Wiederbelebten)
+
+25.07.2011 - MrX
+Bug im Inventarsystem behoben (Neu Registrierte User können Autohausautos fahren)
+Bug beim Bestellen von Fahrzeugen behoben
+
+22.07.2011 - MrX
+Neues Banksystem größtenteils fertiggestellt
+
+22.07.2011 - Sebihunter
+Neues Item: Tankkanister mit 10 Litern
+Neues Item: GPS für Minimap
+Statusanzeige nun oben-rechts um Platz für Minimap zu haben
+Inventar auf I und Admin-Panel auf O
+Neue AutoFix Map eingebaut
+
+21.07.2011 - Sebihunter
+Shop und Inventar GUI nicht mehr in der Größe veränderbar
+Geschwindigkeitsanzeige für Fahrlehrer verändert (KM/H stimmen nun mit dem Originaltacho überein)
+
+20.07.2011 - Sebihunter
+Scriptversion 1.0.6
+Inventarsystem eingebaut
+Grundfunktionen des Itemsystems (hasItem, removeItem, giveItem und useItem)
+Inventar GUI
+Shops eingebaut
+
+20.07.2011 - MrX
+Teamchat / Jobfunk eingebaut
+Tankstellen haben einen "Füllstand" (10000l maximal)
+Tankstellen sind von LKW Fahren betankbar
+Helitankstelle entfernt
+getGradient(prozent, ... (Farbtables)) -- Gibt RGB Werte eins Farbverlaufs an Stelle 'prozent' wieder
+getSimpleGradient(prozent, r, g, b, r2, g2, b2) -- s.o. (2 farben)
+mkColor(r, g, b) -- Erstellt eine Farbtable für getGradient
+
+
+19.07.2011 - MrX
+Illegalen Waffenhaendler eingefügt (in Arbeit)
+createClickableElement(element, function) eingefügt (keyped-server/client.lua), function wird aufgerufen wenn ein Spieler das Element anklickt. source = angeklicktes Element, Parameter 1= Spieler der angeklickt hat
+neonweapon modifiziert um Support für verschiedene Waffentabellen herzustellen
+Debugcode aus polizei-server.lua entfernt
+createInvinciblePed hinzugefügt
+Tankstellen in XML umgewandelt
+
+18.07.2011 - MrX
+/einsperren überarbeitet, Zeit wird gespeichert, beim "Ausperren" wird die Zeit gelöscht
+Bei Blitzern wird jetzt 1-200 anstelle von 0-200 als Geschwindigkeit angezeigt
+Autohändler die nicht im Dienst sind können keine Autos fahren die nicht zum Verkauf gestellt sind
+Tankverbrauch korrigiert (~37l pro Sekunde ist zuviel...)
+Tankverbrauch im Stand eingefügt / korrigiert
+Akten eingebaut. /zeigeakte /addakte /removeakte
+/tasertoggle funktioniert nurnoch bei Polizisten
+xmlCreateOrLoad in die root-server.lua verschoben
+
+17.07.2011 - MrX
+Abschleppwagen können gefreezte Autos abschleppen sofern der Fahrer Autofix Mitarbeiter und im Dienst ist
+Magnethelis können gefreezte Autos abschleppen. Bei "Fallenlassen" werden die Autos kurz entfreezt (zum Runterfallen)
+Tankverbrauch halbiert und Tankverbrauch beim Stand hinzugefügt
+/öl eingefügt. (Selbe Funktion wie /oel)
+Loggerklasse eingefügt. Benutzungsbeispiel:
+	mylog = Logger.create(pfadzurdatei)
+	mylog:addEntry("Hallo")
+Logs für
+	Abschleppen
+	Hauserstellen
+	Tode
+	Autoverkäufe
+	Autobestellungen und
+	Einsperren 
+hinzugefügt
+Zeit für /einsperren hinzugefügt
+Taser für Polizisten hinzugefügt. (/toggletaser)
+/rep für Autohändler hinzugefügt
+Verschiedene Waffenscheine (1-3)
+
+16.07.2011 - CubedDeath
+Werbung eingebaut /werbung [Text]
+Fahrzeug Status anzeige im Admin Panel eingebaut
+
+16.07.2011 - Sense
+DFT-30 in die vehtable-server eingefügt
+Sounds wieder in MP3 geändert um platz und Traffic zu sparen
+
+16.07.2011 - MrX
+Customblips Resource eingefügt / eingebunden
+ue -> ü in "Du hast keinen Schlüssel fuer diese Fahrzeug"
+Autos werden gefreezet und unzerstörbar gemacht wenn kein Schlüsselbesitzer mehr Online ist
+onPlayerRPGLogin Event eingebaut (Wird aufgerufen wenn sich ein Spieler eingeloggt hat)
+isPlayerOnline eingefügt
+Blitzer:
+	- "Bad Ped pointer" behoben
+	- "in" entfernt
+Fahrzeuge vom Autohändler haben als Besitzer "Autohaus"
+Fahrzeuge ohne Besitzer haben als Besitzer "Niemand"
+Simplen Autologin eingebaut. Bei Gelegenheit bitte mal ins Logingui einbauen
+
+15.07.2011 - Sense
+Neue ATM's eingebaut welche in ganz SA verteilt sind
+ATM im 24/7 Interior (18 & 4) der Shops und Tankstellen aufgestellt
+Hilfefenster hat nun eine Relative statt Statische größe
+Help GUI Tabs angeglichen
+Autofix Helipad nun Statisch und Herrenlosen Tisch am Stadion enfernt (Verursacher Stephan <- Depp)
+Tankstellen Shops und 24/7 eingebaut (Teleport Marker)
+ATMs Dimenson gefixt für die Tankstellen und Shops
+
+15.07.2011 - CubedDeath
+BusJob kann jetzt wiederholt werden ohne das die Marker da bleiben
+Der Tacho und die Spieleranzeige werden nun ausgeblendet wenn man die große Karte auf F11 öffnet und umgekehr auch wieder angezeigt wenn man die Karte schliesst.
+
+14.07.2011 - Sebihunter
+Item system angefangen (noch nicht in meta.xml da ungetestet und nicht fertiggestellt!)
+
+14.07.2011 - CubedDeath
+Fehler beim Login Bildschirm behoben nach den Credits
+Beim erstellen eines Giro Kontos wird nun kein Geld mehr abgezogen.
+Bussystem fixes
+
+14.07.2011 - Sense
+zusätzliche befehle für:
+/110 + /polizei + /police
+/sanitäter + /sani + /sanitater
+/autofix + /adac
+/sende + /pay
+Hilfe ergänzt
+Iconzeit für Jobs auf 3 Minuten erhöht
+
+14.07.2011 - CubedDeath
+Das Geld wird beim Bus Job nun auch dem Spieler gegeben
+/rang Befehl hinzugefügt
+
+14.07.2011- MrX
+Commands gehen mit Teilnamen (siehe root-server.lua)
+/medic -> /santiäter
+/911 -> /110
+/schluesselabgeben aktzeptiert jetzt mehrere (Teil-)Namen, je ein Name als Parameter
+/schluesselabgeben gefixt
+
+07.07.2011 - Sebihunter
+Version von 1.0.3 in 1.0.4 geändert
+/delblitzer um Blitzer zu deleten
+Behoben: Spieler können Leben verlieren wenn sie tot sind.
+Netzplan für LV eingebaut (könnte man einmal benötigen)
+Anmerkung zur F1 Hilfe in Tutorial
+Fahrräder können gefahren werden
+Nebenjob Autos verlieren nun kein Benzin mehr
+Pizzabikes nun neben Pizza-Sweeper hinzugefügt
+Blitzer zeigt auch Geschwindigkeit an wenn kein Polizist online ist
+/adac, /medic und /911 gibt Rückmeldung wenn niemand im Dienst ist
+/accept um Anfrage zu beantworten
+/ooc und /o für OOC Chat
+
+06.07.-2011 - CubedDeath
+Autoverkäufer Fehler behoben
+Kleine änderung in login-client
+Autoverkäufer können nun wenn sie aus dem Dienst sind Autos kaufen.
+Neon-Help fehler behoben
+Einige Fehler im Busjob behoben
+/schluesselabgeben Fehlermeldung behoben
+Version von 1.0.2 in 1.0.3 geändert
+
+06.07.2011 - Sebihunter
+Waffenschein
+Punkte in Fleischberg
+Sanitäter als neuen Beruf
+Höchstgeschwindigkeit bei Blitzer kann nun eingestellt werden
+
+05.07.2011 - CubedDeath
+Folgende Fehler behoben:
+Magnete sind weiterhin vorhanden, auch wenn der Helikopter explodiert.
+Scoreboard zeigt keinen Ping an.
+Autoverkäufer sehen die Handbremsanzeige wie die Fahrschulehrer.
+Schlüsselabgeben Nachricht wird auch an andere Spieler gesendet.
+Autoverkäufer können sich keine eigenen Fahrzeuge kaufen.
+
+05.07.2011 - Sebihunter
+Toilette hinzugefügt im wilden Ösi
+Versionlabel geändert
+Sollte Polizist disconnecten oder zu weit weg sein werden Handschellen automatisch "aufgebrochen"
+Buslinien 3 und 4 deaktiviert (da noch nicht fertig)
+Informationen beim Login eingebaut
+Man kann nun in seinem Haus auch Hygiene und Harndrang befriedigen
+
+04.07.2011 - CubedDeath
+Der folgende Fehler wurde behoben: "Die Credits sind nur für 21" und 22" ausgelegt, aber nicht für Laptop/4:3-User wie mich, die einen 17" Bildschirm besitzen."
+
+01.07.2011 - CubedDeath
+Der folgende Bug wurde behoben: "Man kann während man ein Auto Repariert und man so steht das man die Keypads sieht, diese bedienen und das Auto herunter lassen. Danach drückt man auf Autoinformationen und springt. Danach kann man sich frei bewegen."
+Kleine Änderungen und Bugfixes in adac-client
+Die Sync Bug fix funktion wurde in root verschoben (client&server)
+RpG in VitaOnline geändert in root-client
+
+12.06.2011 - CubedDeath
+Bus Line 2 hinzugefügt (muss noch intensiv getestet werden, hat noch kleine Fehler)
+
+08.06.2011 - CubedDeath
+setElementData Fehler behoben
+jobcommands-server hinzugefügt
+autohaus-server und fahrschule-server entfernt
+Parameter an addCommandHandler hinzugefügt
+RpG Konsolen Messages in VitaOnline geändert
+
+04.06.2011 - CubedDeath
+Änderungen an commands-server
+Backup funktion eingebaut
+Kleine Änderung in vehicle-server
+
+02.06.2011 - Sebihunter
+Busnebenjob (inklusive automatischer Ansagen)
+
+31.05.2011 - CubedDeath
+Parameter bei addCommandHandler hinzugefügt (nur commands-server)
+Rotation Sync deaktivert
+Admin Mode entfernt (wurde nicht verwendet)
+Kick Funktion bei falschem Passwort vereinfacht
+Funktion durch andere ersetzt
+
+25.05.2011 - CubedDeath
+Peds werden nun gefreezed
+Tutorial bug behoben (Tutorialsystem muss noch umgeschrieben werden)
+kleine Änderungen am Admin Panel
+
+23.05.2011 - CubedDeath
+Einloggen und Tutorial bug behoben
+Umschreiben des Login Systems (wird noch fortgesetzt)
+
+22.05.2011 - CubedDeath
+Admin Panel Status anzeige geändert
+Spieler Status geändert
+
+21.05.2011 - CubedDeath
+Die scoreboard resource zeigt nun den Jobnamen an und nicht mehr die FPS
+Waffenanzeige wurde eingebaut (Text)
+Kleine änderung am jobsystem
+Timer richtig eingebaut
+Änderung am Ped System
+
+19.05.2011 - Sebihunter
+Credits funktionieren nun auch bei höherem FPS Limit (ist nun auf Timer umgebaut)
+
+08.05.2011 - CubedDeath
+Fahrschule gehört nun zur Polizei
+Bug behoben, das man weiterfahren kann obwohl das Fahrzeug eine Panne hat
+Beim reconnect wird man nun wieder in das Auto wieder zurück gesetzt in dem man vorher war
+Passwort kann nun mit /passwort geändert werden
+Gang anzeige entfernt
+Autohändler bekommen nun Geld wenn ein Auto verkauft wird
+Horn für den Zug wurde eingebaut
+
+06.05.2011 - CubedDeath
+Rechtschreibfehler behoben
+Help Liste aktualisiert
+Job Befehle angepasst
+
+
+05.05.2011 - CubedDeath
+Kleine Fehler behoben
+Tacho Kilometeranzeige hat nun realistische Werte
+Admin Panel anzeige Fehler behoben
+Tutorial bug behoben
+weitere änderungen am Admin Panel
+BMX haben nun kein sound mehr beim auf/zu schliessen
+Vehicle Funktionen überarbeitet
+
+04.05.2011 - Sebihunter
+Autokauf repariert
+
+03.05.2011 - Sebihunter
+Fix für Häuser absperren im Interior
+Autohändler können nun Autos wieer kaufen
+
+03.05.2011 - CubedDeath
+Fehler in commands-server behoben
+doSync Funktion repariert (Fehler in debugscript)
+
+02.05.2011 - Sebihunter
+Mehrere Schlüsselbesitzer pro Haus und Fahrzeug möglich
+
+30.04.2011 - Sebihunter
+Fix für Absperrungen des Autofixes schweben.
+Fix für Automotor nicht synchron.
+Fix für Autolichter haben sich nicht abgeschalten wenn der Motor aus war.
+Fix für wenn man auf "Kaufen" klickt und nicht genug Geld hat, kann man es auch fahren..
+Benzin wird nun nicht so schnell verbraucht
+Hungerbedürfnis erhöht
+Keypad Radius erhöht
+Hebebühnen werden automatisch wieder nach der Reperaturzeit freigegeben, auch wenn jemand crasht oder disconnectet.
+Hebebühnen können beim Scriptstart nicht in den reparierstatus gesetzt werden.
+Autohändler können Autos im Verkaufsstatus rumfahren und den Preis erneut setzen.
+Magnet für AutoFix Heli eingebaut.
+Spieler können nun AutoFix und Polizei per Command rufen.
+Immobiliensystem eingebaut
+
+29.04.2011 - CubedDeath
+Sirene nun lauter
+Test Message entfernt
+Bank funktioniert nun wieder
+
+29.04.2011 - Sebihunter
+Polizeiauto Modell geändert
+Polizei Megaphone und Sirenen angepasst, dass sie an richtigen Autos sind. Lautstärke geändert.
+
+28.04.2011 - Sebihunter
+Bedürfnisse angeglichen (muss getestet werden!)
+Wenn man Tankt kann man wieder ins Auto steigen kann man wegfahren und das Auto wird weiter betankt.
+Autos werden nun alle 30 Minuten gespeichert
+Umorganisation von CubedDeaths letzten Edits (unfähig Sachen in die richtige Datei zu coden...)
+Hilfe aktualisiert
+AutoFix Absperrung Modell geändert
+Aufzug schneller gemacht im AutoFix
+Nebenjob eingebaut (Lieferwagenfahrer, Rasenmäher und Pizza Lieferant)
+Alle Sounds nun von MP3 auf wav konvertiert
+Fix für Problem, dass man nach beim Autokauf auf "Abbrechen" gedrückt hat nicht removed wird
+
+27.04.2011 - Sebihunter
+Exploit behoben um sich Geld zu ercheaten (bei Firmenkonto)
+Geldüberprüfungen eingebaut
+Blinkercmd indicator_both behoben
+Regeln hinzugefügt
+Fahrzeuge ohne Türen können nun wenn geschlossen nicht mehr gefahren werden.
+Weitere Tankstellen in LV hinzugefügt
+Staatsverwaltung an richtige Position
+Lizenzen werden nicht gespeichert.
+Polizei hat nun Waffen
+Polizeitore eingebaut
+
+27.04.2011 - CubedDeath
+Anstatt der "Tank-fast-leer" Anzeige geht die Fernlicht Anzeige an, wenn der Sprit fast leer ist
+Kleine Änderungen
+bind für auto auf abschliessen
+lautstärke bei fahren sie rechts ran ist nun lauter
+absperrung für autofix
+
+26.04.2011 - Sebihunter
+AutoFix hat nun Diensticon auch in LV
+Geldsystem repariert und Cheatsicher gemacht
+Tankstellen in LV
+Hungertod eingebaut
+Hebebühnen lassen sich nach Reperatur wieder herunterfahren
+Autowerkstatt Tür funktioniert nun richtig
+Wenn man [M] drueck und das Auto abschießt geht die Maus automatisch weg, danach muss man zwei mal [M] druecken damit die Maus wieder da ist.
+Autohänder konnte keine Fahrschulcmds ausführen.
+/me repariert
+Logging von RpG Chat aktiviert
+
+26.04.2011 - CubedDeath
+ERROR: /afk (setElement Frozen oder so) behoben
+Die Skills für z.B. das Fahrradfahren sind noch ganz down, also bringen BMX's garnichts behoben
+Wenn man in ein Fahrzeug einsteigt, was noch nicht gekauft wurde, wird man unter das Auto teleportiert und das Auto landet auf dem Dach und explodiert (schöne Einnahmequelle für das Autofix) behoben
+lkw sound geht nun aus beim aussteigen
+
+24.04.2011 - Sebihunter
+AutoFix in LV nun funktionsfähig
+Bedürfnisse angepasst
+
+22.04.2011 - CubedDeath
+Login Bug behoben
+Kleine Änderungen am Admin Panel
+Job Auswahl im Admin Panel behoben
+Sonstige kleine Änderungen
+
+22.04.2011 - Sebihunter
+Autohaus Dienstpickup erhöht
+Sirenen eingebaut
+Hilfe aktualisiert
+Beamter als Job hinzugefügt
+Tankstelle beim Autofix hinzugefügt
+Anzeige das der Spieler sich erst im Forum bewerben muss nach Registrierung
+AFK Modus eingebaut
+Transportunternehmen in LS
+Tutorialtext umgebaut
+
+18.04.2011 - Sebihunter
+Hilfe hinzugefügt
+Commands.txt entfernt (unnötig, steht sowieso jetzt in der Hilfe)
+Copyright.txt hinzugefügt
+Angefangen alles nach LV zu machen
+Warnblinker gehen auch mit ausgemachtem Motor
+
+17.04.2011 - Sebihunter
+AutoFix kann nun Fahrzeuge reparieren
+Bedürfnisse reaktiviert
+Versionsanzeige eingebaut
+Kommentar in bedürfnissscript entfernt
+Ölnachfüll- und Batterieaufladefunktion für AutoFix
+Einige Autodaten nur für AutoFix Mitarbeiter
+Wassernachfüllfunktion nachgereicht
+fix nach credits
+VitaLogo
+
+12.04.2011 - Sebihunter
+Progress Bars überarbeitet
+Sinnlose Wirtschaftsanzeige entfernt
+Personalausweis eingebaut
+Autopapiere und Autoschlüssel können nun an andere Spieler abgegeben werden
+/sende zum Geldversenden eingebaut
+/autosanzeigen um die eigenen Fahrzeuge auf der Map zu kennzeichnen
+Polizeicommands nur im Dienst möglich
+Fahrschule hinzugefügt
+Fahrlehrer kann als Beifahrer Handbremse ziehen
+Fschein entziehcommand für Polizei hinzugefügt
+
+27.02.2011 - Sebihunter
+Angenfangen mit ADAC (beinhaltet Tore, Modshop und Hebebühnen)
+
+27.02.2011 - CubedDeath
+Fahrzeug Tab im Admin Panel umstrukturiert -> weiter änderungen folgen
+
+25.02.2011 - Sebihunter
+ProgressBar gefixt
+Neue Tankstellenanzeige
+Error in Adminpanel behoben
+
+20.02.2011 - CubedDeath
+Admin Panel Fehler behoben
+Bankautomaten eingebaut
+
+20.02.2011 - Sebihunter
+Grundfunktionen der Polizei eingebaut
+(Gefängnis, Handschellen, Absperrungen)
+
+20.02.2011 - CubedDeath
+Admin Panel umstrukturiert und fehler behoben
+Rückfahrsound fehler behoben
+
+19.02.2011 - CubedDeath
+Warning behoben beim Autohaus script
+Freier Modus eingebaut
+Rückfahrsound beim Roadtrain eingebaut
+Abfrage GUI eingebaut, Funktion: showMessageBox
+Fehler im Admin Panel GUI behoben
+
+17.02.2011 - Sebihunter
+Autobestelle Funktion eingebaut
+Tacho ist nicht mehr bei Beifahrern
+Beifahrer können keine Autofunktionen mehr ausführen
+Bedürfnisse temporär disabled (bis Funmodus kommt)
+DebugMSG bei Hafen entfernt
+Nicht Schlagen können nach Krankenhaus entfernt
+Bugfixes bei AUtoerstellen über Adminpanel
+Nicht-Verkaufte Autos können nur vom Authändler gefahren werden
+Fahrzeuge werden jetzt nicht mehr nach auspacken automatisch angehängt
+Fahrzeuge können verkauft werden
+Autoinformationen werden angezeigt
+Autos können gekauft werden
+
+13.02.2011 - CubedDeath
+Rang GUI eingebaut
+Admin funktion umbenannt
+
+10.05.2011 - CubedDeath
+bugfixes Banksystem
+Admin Panel verändert
+Job Gui hinzugefügt
+Rang wird angezeigt
+
+10.02.2011 - Sebihunter
+Vehiclespawn funktion umgebaut
+Spawn der Anhänger am Hafen
+Autoren und Informationen zu allen Scriptfiles hinzugefügt
+Job LKW-Fahrer hinzugefügt
+Auf num_7 und mit /detach können Anhänger abgehängt werden
+
+09.02.2011 - Sebihunter
+Jobdaten werden beim connecten geladen und disconnecten gespeichert
+Anfängliches Gangsystem ausgebaut
+Table mit allen Vehicledaten eingebaut
+Jobsystem eingebaut (+Firmenkonten)
+Job wird automatisch beim einloggen gestartet falls beim Disconnecten in Dienst
+Credits angepasst
+
+09.02.2011 - CubedDeath
+Änderungen am Banksystem
+Skins images hinzugefügt
+
+
+08.02.2011 - Sebihunter
+Fernlicht eingebaut
+Handbremsen Sound repariert
+
+05.02.2011
+Blinker eingebaut - Sebihunter
+Autolicht kann nun per Tastendruck getoggled werden
+
+28.01.2011 - Sebihunter
+Speichern/Laden von Batteriestatus, Öl- und Wasserstand
+Grundsystem vom Ölscript, Batterie und Wasserstandscript eingebaut
+Neue Position des Login Screen
+
+27.01.2011 - Sebihunter
+Credits nach Registrierung
+
+26.01.2011 - Sebihunter
+Schlafen eingebaut
+
+23.01.2011 - Sebihunter
+FastFood Waschräume/Toiletten sind nun benutzbar
+
+04.01.11 - CubedDeath
+Login Passwort versuch bug behoben
+
+30.12.10 - Sebihunter
+Handbremse bei einigen Fahrzeugtypen entfernt
+Bedürfnisse weitergebaut
+
+30.12.10 - CubedDeath
+Banksystem fixed
+
+29.12.2010 - Sebihunter
+Auto abschließen nun möglich
+Auftanken eingebaut
+Bugfixes
+Pannen und Explosionen von Autos eingebaut
+Bedürfnisse weitergearbeitet (fehlt nur noch auffüllen und reaktion bei schlafmangel sowie reaktion bei hygienemangel)
+Lebens und Armoranzeige geaddet
+
+28.12.2010 - Sebihunter
+debug code von names-client.lua entfernt
+laden von booleans der vehicle stats repariert
+
+04.12.2010 - CUbedDeath
+Banksystem (Einzahlen & Auszahlen) Bug: Geld wird nicht korrekt gespeichert beim player leave
+Credits Update (Namen)
+
+27.11.2010 - CubedDeath
+Banksystem weitergebaut
+
+27.11.2010 - Sebihunter
+Intro fertiggestellt, muss nur noch irgendwo eingebaut werden :P
+
+09.11.2010 - Sebihunter
+Motorstart verbessert
+Handbremse eingebaut
+
+08.11.2010 - Sebihunter
+Motorstart repaiert
+
+07.11.2010 - Sebihunter
+Benzin eingebaut
+Motorsystem Angefangen
+
+01.11.2010 - Sebihunter
+Neue Benutzeranzeige
+
+27.10.2010 - Sebihunter
+Kilometeranzeige und KM/H
+Neue Anzeigen für Spielerstat
+
+26.10.2010 - Sebihunter
+Basis von Schulzi genommen

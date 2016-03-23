@@ -1,0 +1,39 @@
+<meta>
+	<info name="Shader Dynamic Lighting" description="Dynamic per pixel lighting resource." author="Ren712" version="1.3.7" type="script" />
+	<script src="c_main.lua" type="client" />
+	<script src="c_helper_functions.lua" type="client" />
+	<script src="c_exported_functions.lua" type="client" />
+	<file src="shaders/shader_lightSpotPedSM2.fx" type="client" />
+	<file src="shaders/shader_lightSpotVehSM2.fx" type="client" />
+	<file src="shaders/shader_lightSpotWrdSM2.fx" type="client" />
+	<file src="shaders/shader_lightSpotPedSM3.fx" type="client" />
+	<file src="shaders/shader_lightSpotVehSM3.fx" type="client" />
+	<file src="shaders/shader_lightSpotWrdSM3.fx" type="client" />
+	<file src="shaders/lightutil.fx" type="client" />
+	<export function="createPointLight" type="client" />
+	<export function="createSpotLight" type="client" />
+	<export function="destroyLight" type="client" />
+	<export function="setLightDirection" type="client" />
+	<export function="setLightPosition" type="client" />
+	<export function="setLightColor" type="client" />
+	<export function="setLightAttenuation" type="client" />
+	<export function="setLightNormalShading" type="client" />
+	<export function="setLightFalloff" type="client" />
+	<export function="setLightTheta" type="client" />
+	<export function="setLightPhi" type="client" />
+	<export function="setMaxLights" type="client" />
+	<export function="setWorldNormalShading" type="client" />
+	<export function="setNormalShadingAmount" type="client" />
+	<export function="setGenerateBumpNormals" type="client" />
+	<export function="setTextureBrightness" type="client" />
+	<export function="setLightsDistFade" type="client" />
+	<export function="setLightsEffectRange" type="client" />
+	<export function="setShaderForcedOn" type="client" />	
+	<export function="setShaderTimeOut" type="client" />
+	<export function="setShaderNightMod" type="client" />
+	<export function="setShaderDayTime" type="client" />
+	<export function="setShaderPedDiffuse" type="client" />
+	<export function="setDirLightEnable" type="client" />
+	<export function="setDirLightDirection" type="client" />
+	<export function="setDirLightColor" type="client" />
+</meta>
