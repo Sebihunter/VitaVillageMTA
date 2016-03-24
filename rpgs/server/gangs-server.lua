@@ -644,12 +644,16 @@ setElementData( tor1, "doubleside", true )
 
 function piedra_tor_func ( button, state, player )
 	if getElementData( player, "gang" ) ~= 1 then return end
-		if getElementData( tor1, "moving" ) == true then return end
-			setElementData( tor1, "moving", true )
-			setTimer( setElementData, 2600, 1, tor1, "moving", false ) 
-		if getElementData( tor1, "state" ) == "open" then
-			moveObject( tor1, 2500, -2485.8000488281, -615.59997558594, 135.455 )
-			setElementData( tor1, "state", "closed" )
+	if getElementData( tor1, "moving" ) == true then return end
+	setElementData( tor1, "moving", true )
+	
+    setTimer(function()
+        setElementData(tor1, "moving", false)
+    end, 2600, 1)
+	
+	if getElementData( tor1, "state" ) == "open" then
+		moveObject( tor1, 2500, -2485.8000488281, -615.59997558594, 135.455 )
+		setElementData( tor1, "state", "closed" )
 	else
 		moveObject( tor1, 2500, -2485.8000488281, -615.59997558594, 127.59999847412 )
 		setElementData( tor1, "state", "open" )
