@@ -2225,7 +2225,7 @@ local tuev_marker_1 = createMarker ( 1113.0999755859, 1717.8000488281, 9.8000001
 local tuev_marker_2 = createMarker (1114.9000244141, 1711.6999511719, 9.8999996185303, "cylinder", 6, 0, 255, 0, 0 )
 local tuev_marker_3 = createMarker ( 1113.5, 1706.6999511719, 9.8000001907349, "cylinder", 6, 0, 255, 0, 0 )
 function checkTuev(ply, command)
-	if getElementData(ply, "job") == 1 and getElementData(ply, "dienst") == 4 then --Autohaus
+	if getElementData(ply, "job") == 4 and getElementData(ply, "dienst") == 1 then --Autohaus
 		local veh = getPedOccupiedVehicle(ply)
 		if veh then
 			local price = 0
