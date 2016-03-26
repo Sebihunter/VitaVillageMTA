@@ -66,7 +66,7 @@ function createRPGVehicle(model,x,y,z,rz,name,color,temp,eingepackt)
 end
 
 function loadAllRootRPGVehicles()
-	setTimer(benzinVerbrauch, 60000*5, -1)
+	setTimer(benzinVerbrauch, 60000*5, 0)
 	
 	if mysql_ping ( g_mysql["connection"] ) == false then
 		onResourceStopMysqlEnd()

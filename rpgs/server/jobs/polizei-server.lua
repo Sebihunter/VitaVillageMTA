@@ -653,7 +653,7 @@ function updatePlayerCabin()
 		end
 	end
 end
-setTimer(updatePlayerCabin, 60000, -1)
+setTimer(updatePlayerCabin, 60000, 0)
 
 
 
