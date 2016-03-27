@@ -14,11 +14,15 @@ local vitaCreditsTimer = false
 local screenWidth, screenHeight = guiGetScreenSize()
 
 function startVitaCredits()
-	showChat ( false )
-	addEventHandler ( "onClientRender", getRootElement(), renderVitaCredtis )
-	setCreditsStatus(1)
+	--showChat ( false )
+	--addEventHandler ( "onClientRender", getRootElement(), renderVitaCredtis )
+	--setCreditsStatus(1)
 	setWeather ( 10 )
 	setTime(12,0)
+	setElementInterior(getLocalPlayer(), 0)
+	isAtCreditsPoint = false
+	--removeEventHandler ( "onClientRender", getRootElement(), renderVitaCredtis )
+	triggerEvent("startStoryPart2", getLocalPlayer(), getLocalPlayer())	
 end
 addEvent("startVitaCredits", true)
 addEventHandler("startVitaCredits", getRootElement(),startVitaCredits)
