@@ -476,7 +476,7 @@ setElementData( tor1, "doubleside", true )
 setElementData( tor2, "doubleside", true )
 
 function lift_func ( button, state, player )
-	if getElementData(player, "getPlayerSpecialRights") == 0 then return end
+	if getElementData(player, "getPlayerSpecialRights") == 0 or getPlayerName(player) == "Sebastian.Hunter" then return end
 	if admin_state == "moving" then return end
 	
 	local x,z,y = getElementPosition(source)
