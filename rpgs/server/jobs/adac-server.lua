@@ -2194,7 +2194,7 @@ addEventHandler("onResourceStart",getResourceRootElement(),function()
 		addEventHandler("onMarkerHit",marker,function(player)
 			if getElementType(player)=="player" and not getElementData(marker, "used")  then
 				if isPedInVehicle(player) then
-					if getPlayerOccupiedVehicleSeat(player)==0 and getElementHealth(getPedOccupiedVehicle(player)) < 900 then
+					if getPedOccupiedVehicleSeat(player)==0 and getElementHealth(getPedOccupiedVehicle(player)) < 900 then
 						if getPlayerMoneyEx(player) < 1000 then return triggerClientEvent ( player, "addNotification", getRootElement(), 1, 255, 0, 0, "Du benötigst mindestens 1000 Vero für die Fahrzeugreparatur.")	 end
 						setGarageOpen(row.ID,false)
 						local veh = getPedOccupiedVehicle(player)
