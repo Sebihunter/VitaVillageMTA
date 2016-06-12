@@ -14,18 +14,15 @@ local vitaCreditsTimer = false
 local screenWidth, screenHeight = guiGetScreenSize()
 
 function startVitaCredits()
-	--showChat ( false )
-	--addEventHandler ( "onClientRender", getRootElement(), renderVitaCredtis )
-	--setCreditsStatus(1)
+	showChat ( false )
+	addEventHandler ( "onClientRender", getRootElement(), renderVitaCredtis )
+	setCreditsStatus(1)
 	setWeather ( 10 )
 	setTime(12,0)
-	setElementInterior(getLocalPlayer(), 0)
-	isAtCreditsPoint = false
-	--removeEventHandler ( "onClientRender", getRootElement(), renderVitaCredtis )
-	triggerEvent("startStoryPart2", getLocalPlayer(), getLocalPlayer())	
 end
 addEvent("startVitaCredits", true)
 addEventHandler("startVitaCredits", getRootElement(),startVitaCredits)
+
 
 function setCreditsStatus(Creditsstatus)
 	isAtCreditsPoint = Creditsstatus
@@ -36,7 +33,7 @@ end
 function renderVitaCredtis()
 	if isAtCreditsPoint == 1 then
 		isAtCreditsPoint = 2
-		playSound("sounds/intro.mp3")
+		--playSound("sounds/intro.mp3") DISABLED DUE TO COPYRIGHT
 		fadeCamera(true, 2)
 		setCameraMatrix(-2518.841796875, 879.728515625, 150.20649719238, -1700.0751953125, 1056.9228515625, 208.40719604492, 0, 180)	-- SF
 	elseif isAtCreditsPoint == 2 then

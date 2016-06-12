@@ -107,6 +107,7 @@ bindKey ( "F1", "down", function()
 end )
 
 daStandartText = [[Herzlich Willkommen in der Hilfe von The Vita Village!
+Gamemode erstellt von Sebastian 'Sebihunter' M. und dem Vita Team.
 
 In dieser Hilfe findest du alle Informationen, die du zum Spielen auf unserem Server benötigst.
 
