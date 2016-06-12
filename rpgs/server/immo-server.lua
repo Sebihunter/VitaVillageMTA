@@ -33,8 +33,6 @@ function loadAllRootRPGHouses()
 			local keys = row["keys"]
 			local locked = row["locked"]
 			local lastjoin = tonumber(row["lastjoin"])
-			
-			outputDebugString(id.." "..owner.." "..keys)
 				
 			--Erstelle Eingangspickup
 			local pickup
@@ -69,11 +67,9 @@ function loadAllRootRPGHouses()
 			--Erstelle Verbindung zwischen Pickups
 			setElementData(pickup, "ref", intpickup)
 			setElementData(intpickup, "ref", pickup)			
-
+			
 			--Schauen, ob Haus nach 2 Monaten frei gemacht werden soll
-			outputDebugString(id.." "..getRealTime().timestamp.." / "..lastjoin + 2678400*2)
-			if owner ~= "Niemand" and (lastjoin + 2678400*2) < getRealTime().timestamp then
-				outputDebugString("CALL")
+			if owner ~= "Niemand" and ((lastjoin + 2678400*2) > getRealTime().timestamp) then
 				setElementData(pickup, "keys", "Niemand")
 				setElementData(pickup, "owner", "Niemand")
 			end	
