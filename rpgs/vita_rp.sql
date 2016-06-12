@@ -54,7 +54,7 @@ CREATE TABLE `houses` (
   `locked` varchar(255) CHARACTER SET utf8 DEFAULT 'false',
   `lastjoin` int(30) DEFAULT '1448307751',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1476833512 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=1476833513 DEFAULT CHARSET=latin1;
 
 -- ----------------------------
 -- Records of houses
