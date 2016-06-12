@@ -222,9 +222,198 @@ function useItem(player, slotid)
 		triggerEvent ( "onPlayerChat", player, "trinkt einen Kaffee.", 1)
 		setElementData(player,"getPlayerHarndrang", getElementData(player,"getPlayerHarndrang")-20)
 		removeItem(player, slotid)	
------------------------------------------------------------------------------------------------------------------------------------------------		
-	elseif itemid >= 9 and itemid <= 40 then
-		outputChatBox("Waffen werden automatisch ausgestattet.",player,255,0,0)
+-----------------------------------------------------------------------------------------------------------------------------------------------					
+	--Wir statten uns mit einer Desert Eagle aus
+	elseif itemid == 9 then
+		giveWeapon(player, 24)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einer Desert Eagle aus.", 1)
+		removeItem(player, slotid)	
+-----------------------------------------------------------------------------------------------------------------------------------------------				
+	--Wir statten uns mit einer MP5 aus
+	elseif itemid == 10 then
+		giveWeapon(player, 29, 60)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einer MP5 aus.", 1)
+		removeItem(player, slotid)				
+-----------------------------------------------------------------------------------------------------------------------------------------------			
+	--Wir statten uns mit einem Schlagring aus
+	elseif itemid == 11 then
+		giveWeapon(player, 1,1)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einem Schlagring aus.", 1)
+		removeItem(player, slotid)			
+-----------------------------------------------------------------------------------------------------------------------------------------------			
+	--Wir statten uns mit einem Golfschläger aus
+	elseif itemid == 12 then
+		giveWeapon(player, 2,1)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einem Golfschläger aus.", 1)
+		removeItem(player, slotid)	
+-----------------------------------------------------------------------------------------------------------------------------------------------			
+	--Wir statten uns mit einem Schlagstock aus
+	elseif itemid == 13 then
+		giveWeapon(player, 3,1)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einem Schlagstock aus.", 1)
+		removeItem(player, slotid)			
+-----------------------------------------------------------------------------------------------------------------------------------------------			
+	--Wir statten uns mit einem Messer aus
+	elseif itemid == 14 then
+		giveWeapon(player, 4,1)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einem Messer aus.", 1)
+		removeItem(player, slotid)			
+-----------------------------------------------------------------------------------------------------------------------------------------------			
+	--Wir statten uns mit einem Baseballschläger aus
+	elseif itemid == 15 then
+		giveWeapon(player, 5,1)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einem Baseballschläger aus.", 1)
+		removeItem(player, slotid)					
+-----------------------------------------------------------------------------------------------------------------------------------------------			
+	--Wir statten uns mit einer Schaufel aus
+	elseif itemid == 16 then
+		giveWeapon(player, 6,1)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einer Schaufel aus.", 1)
+		removeItem(player, slotid)	
+-----------------------------------------------------------------------------------------------------------------------------------------------			
+	--Wir statten uns mit einem Billiardstock aus		
+	elseif itemid == 17 then
+		giveWeapon(player, 7,1)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einem Billiardstock aus.", 1)
+		removeItem(player, slotid)	
+-----------------------------------------------------------------------------------------------------------------------------------------------			
+	--Wir statten uns mit einer Kettensäge		
+	elseif itemid == 18 then
+		giveWeapon(player, 8,1)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einer Katana aus.", 1)
+		removeItem(player, slotid)
+-----------------------------------------------------------------------------------------------------------------------------------------------			
+	--Wir statten uns mit einer Kettensäge aus	
+	elseif itemid == 19 then
+		giveWeapon(player, 9,1)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einer Kettensäge aus.", 1)
+		removeItem(player, slotid)
+-----------------------------------------------------------------------------------------------------------------------------------------------			
+	--Wir statten uns mit einem Stock aus	
+	elseif itemid == 20 then
+		giveWeapon(player, 15,1)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einem Stock aus.", 1)
+		removeItem(player, slotid)
+-----------------------------------------------------------------------------------------------------------------------------------------------			
+	--Wir statten uns mit einer Pistole aus	
+	elseif itemid == 21 then
+		giveWeapon(player, 22,30)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einer Pistole aus.", 1)
+		removeItem(player, slotid)
+-----------------------------------------------------------------------------------------------------------------------------------------------			
+	--Wir statten uns mit einer Schallgedämpften Pistole aus	
+	elseif itemid == 22 then
+		giveWeapon(player, 23,23)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einer Schallgedämpften Pistole aus.", 1)
+		removeItem(player, slotid)
+-----------------------------------------------------------------------------------------------------------------------------------------------			
+	--Wir statten uns mit einer Schrotflinte aus	
+	elseif itemid == 23 then
+		giveWeapon(player, 25,30)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einer Schrotflinte aus.", 1)
+		removeItem(player, slotid)
+-----------------------------------------------------------------------------------------------------------------------------------------------			
+	--Wir statten uns mit einer Abgesägten Schrotflinte aus	
+	elseif itemid == 24 then
+		giveWeapon(player, 25,30)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einer Abgesägten Schrotflinte aus.", 1)
+		removeItem(player, slotid)			
+-----------------------------------------------------------------------------------------------------------------------------------------------			
+	--Wir statten uns mit einer SPAZ-12 aus	
+	elseif itemid == 25 then
+		giveWeapon(player, 27,100)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einer SPAZ-12 aus.", 1)
+		removeItem(player, slotid)
+-----------------------------------------------------------------------------------------------------------------------------------------------			
+	--Wir statten uns mit einer Uzi aus	
+	elseif itemid == 26 then
+		giveWeapon(player, 28,100)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einer Uzi aus.", 1)
+		removeItem(player, slotid)		
+-----------------------------------------------------------------------------------------------------------------------------------------------				
+	--Wir statten uns mit einer TEC-9 aus	
+	elseif itemid == 27 then
+		giveWeapon(player, 32,100)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einer TEC-9 aus.", 1)
+		removeItem(player, slotid)	
+-----------------------------------------------------------------------------------------------------------------------------------------------				
+	--Wir statten uns mit einer AK-47 aus	
+	elseif itemid == 28 then
+		giveWeapon(player, 30,100)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einer AK-47 aus.", 1)
+		removeItem(player, slotid)		
+-----------------------------------------------------------------------------------------------------------------------------------------------				
+	--Wir statten uns mit einer M4 aus	
+	elseif itemid == 29 then
+		giveWeapon(player, 31,100)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einer M4 aus.", 1)
+		removeItem(player, slotid)	
+-----------------------------------------------------------------------------------------------------------------------------------------------				
+	--Wir statten uns mit einer Country Rifle aus	
+	elseif itemid == 30 then
+		giveWeapon(player, 33,30)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einer Country Rifle aus.", 1)
+		removeItem(player, slotid)			
+-----------------------------------------------------------------------------------------------------------------------------------------------				
+	--Wir statten uns mit einer Sniper aus	
+	elseif itemid == 31 then
+		giveWeapon(player, 34,30)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einer Sniper aus.", 1)
+		removeItem(player, slotid)	
+-----------------------------------------------------------------------------------------------------------------------------------------------				
+	--Wir statten uns mit einem Flammenwerfer aus	
+	elseif itemid == 32 then
+		giveWeapon(player, 37,100)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einem Flammenwerfer aus.", 1)
+		removeItem(player, slotid)	
+-----------------------------------------------------------------------------------------------------------------------------------------------				
+	--Wir statten uns mit Granaten aus	
+	elseif itemid == 33 then
+		giveWeapon(player, 16,5)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit Granaten aus.", 1)
+		removeItem(player, slotid)	
+-----------------------------------------------------------------------------------------------------------------------------------------------				
+	--Wir statten uns mit Tränengas aus	
+	elseif itemid == 34 then
+		giveWeapon(player, 17,5)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit Tränengas aus.", 1)
+		removeItem(player, slotid)
+-----------------------------------------------------------------------------------------------------------------------------------------------				
+	--Wir statten uns mit Molotov Cocktails aus	
+	elseif itemid == 35 then
+		giveWeapon(player, 18,5)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit Molotov Cocktails aus.", 1)
+		removeItem(player, slotid)		
+-----------------------------------------------------------------------------------------------------------------------------------------------				
+	--Wir statten uns mit Rucksackbomben aus	
+	elseif itemid == 36 then
+		giveWeapon(player, 39,5)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit Rucksackbomben aus.", 1)
+		removeItem(player, slotid)		
+-----------------------------------------------------------------------------------------------------------------------------------------------				
+	--Wir statten uns mit einem Feuerlöscher aus	
+	elseif itemid == 37 then
+		giveWeapon(player, 42,500)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einem Feuerlöscher aus.", 1)
+		removeItem(player, slotid)	
+-----------------------------------------------------------------------------------------------------------------------------------------------				
+	--Wir statten uns mit einem Nachtsichtgerät aus	
+	elseif itemid == 38 then
+		giveWeapon(player, 44,1)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einem Nachtsichtgerät aus.", 1)
+		removeItem(player, slotid)	
+-----------------------------------------------------------------------------------------------------------------------------------------------				
+	--Wir statten uns mit einem Infrarotgerät aus	
+	elseif itemid == 39 then
+		giveWeapon(player, 45,1)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einem Infrarotgerät aus.", 1)
+		removeItem(player, slotid)	
+-----------------------------------------------------------------------------------------------------------------------------------------------				
+	--Wir statten uns mit einem Fallschirm aus	
+	elseif itemid == 40 then
+		giveWeapon(player, 46,1)
+		triggerEvent ( "onPlayerChat", player, "stattet sich mit einem Fallschirm aus.", 1)
+		removeItem(player, slotid)
 -----------------------------------------------------------------------------------------------------------------------------------------------						
 	--Wir wollen eines der Strandtücher verwenden
 	elseif itemid == 41 or itemid == 42 or itemid == 43 or itemid == 44 then
