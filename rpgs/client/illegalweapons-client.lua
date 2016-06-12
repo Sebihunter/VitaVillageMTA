@@ -1,4 +1,4 @@
---[[
+﻿--[[
 Project: VitaOnline
 File: illegalweapons-client.lua
 Author(s):	Sebihunter
@@ -10,7 +10,7 @@ WeaponGUI_Button = {}
 WeaponGUI_Grid = {}
 WeaponGUI_Column = {}
 
-WeaponGUI_Window[1] = guiCreateWindow(screenWidth/2-155,screenHeight/2-202,289,403,"Illegaler Waffenh�ndler",false)
+WeaponGUI_Window[1] = guiCreateWindow(screenWidth/2-155,screenHeight/2-202,289,403,"Illegaler Waffenhändler",false)
 WeaponGUI_Button[1] = guiCreateButton(179,379,101,15,"Schliessen",false,WeaponGUI_Window[1])
 WeaponGUI_Grid[1] = guiCreateGridList(16,33,264,336,false,WeaponGUI_Window[1])
 guiGridListSetSelectionMode(WeaponGUI_Grid[1],2)
